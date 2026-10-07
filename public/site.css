@@ -102,4 +102,80 @@
  .home-page .subscribe-banner{padding-top:48px;padding-bottom:48px}
  .home-page .subscribe-banner h2{font-size:34px}
 }
+/* Mobile reading: comfortable copy, clear metadata and phone-width story cards. */
+@media(max-width:700px){
+ :root{--muted:#58645c}
+ body{font-size:16px}
+ .home-page .hero-story>p{font-size:16px;line-height:1.85;max-width:36em}
+ .home-page .hero-kicker,.home-page .eyebrow,.eyebrow{font-size:12px;letter-spacing:.07em}
+ .home-page .hero-link,.home-page .text-link,.text-link{font-size:14px;min-height:44px;align-items:center}
+ .home-page .section-heading .text-link{font-size:13px;min-height:44px}
+ .home-page .intro>p,.home-page .cover-essay-intro p,.home-page .mosaic-intro>p,.home-page .issue-feature p,.home-page .subscribe-banner p{font-size:16px;line-height:1.85}
+ .story-card>p,.home-page .editorial-grid .story-card>p{font-size:16px;line-height:1.85;display:block;-webkit-line-clamp:unset;overflow:visible}
+ .card-meta,.byline,.home-page .card-meta,.home-page .byline{font-size:12px;line-height:1.75}
+ .card-meta{padding-top:14px;gap:12px}
+ .byline{overflow-wrap:anywhere}
+ .home-page .cover-essay-photo figcaption,.article-images figcaption{font-size:12px;line-height:1.8}
+ .home-page .cover-essay-photo figcaption>span,.article-images figcaption>span{font-size:11px;opacity:1;overflow-wrap:anywhere}
+ .home-page .cover-essay-intro cite,.home-page .seasonal-frame figcaption div>span,.home-page .seasonal-frame figcaption a{font-size:12px}
+ .home-page .seasonal-frame figcaption p,.home-page .seasonal-section .section-heading>p{font-size:14px}
+ .home-page .category-list p{font-size:15px;line-height:1.75}
+ .mosaic-item>span{font-size:13px;line-height:1.6;background:linear-gradient(transparent,rgba(10,30,20,.85))}
+ .edition-line,.edition-line>span{font-size:10px;letter-spacing:.02em}
+ .demo-strip,.demo-note{font-size:12px;line-height:1.8}
+ .hero-folio{max-width:120px;letter-spacing:.04em}
+ .hero-folio span:first-child{font-size:9px}
+ .hero-folio span:last-child{font-size:10px}
+ .carousel-controls button{width:44px;min-width:44px}
+ .page-heading>p,.article-subtitle,.issue-detail p,.about-manifesto p,.values-grid p{font-size:16px;line-height:1.85}
+ .article-heading h1{font-size:clamp(30px,7.8vw,38px);line-height:1.5;overflow-wrap:anywhere}
+ .article-topline,.article-byline{font-size:12px;gap:10px 18px}
+ .prose{font-size:16px;line-height:1.95;padding-left:var(--gutter);padding-right:var(--gutter);margin-bottom:24px}
+ .article-body h2.prose{font-size:26px;line-height:1.55}
+ .article-body blockquote.prose{font-size:22px;line-height:1.8}
+ .article-lead-photo figcaption{font-size:12px;max-width:calc(100% - 48px);background:#15241ccc;padding:5px 8px}
+ .share-row,.share-row a,.share-row button,.article-tags{font-size:13px}
+ .gallery-stage figcaption{font-size:13px;max-height:110px;line-height:1.6}
+ .gallery-hint{font-size:11px}
+ .search-filters button{font-size:14px;padding:7px 14px}
+ .search-count,.search-empty p{font-size:14px}
+ .button,.issue-actions .button{font-size:14px;min-height:48px;gap:24px}
+ .form-aside>p,.price-line,.form-links,.form-field>span,.contact-info>a{font-size:15px;line-height:1.8}
+ .form-links{flex-wrap:wrap}
+ .form-links a{min-height:44px;display:inline-flex;align-items:center}
+ .form-field input,.form-field select,.form-field textarea{font-size:16px;min-height:48px}
+ .consent{font-size:14px;line-height:1.8;align-items:flex-start}
+ .consent input{width:22px;height:22px;flex:0 0 22px;margin-top:2px}
+ .form-notice,.form-status{font-size:14px;line-height:1.8}
+ .policy-content p,.policy-notice p,.policy-contact,.credits-note{font-size:15px;line-height:1.9}
+ .policy-content h2{font-size:21px;line-height:1.6}
+ .archive-card p{font-size:14px;line-height:1.8}
+ .archive-card small,.credit-card p,.credit-card>div{font-size:12px}
+ .mobile-menu nav a{font-size:24px;line-height:1.5;min-height:52px;overflow-wrap:anywhere}
+ .mobile-menu-bottom{font-size:14px;gap:8px 24px}
+ .mobile-menu-bottom a{min-height:44px;display:inline-flex;align-items:center}
+ .footer-middle nav{font-size:14px;gap:4px 20px}
+ .footer-middle nav a,.footer-bottom nav a{min-height:44px;display:inline-flex;align-items:center}
+ .footer-contact>a{font-size:15px}
+ .publisher-info,.footer-bottom,.footer-bottom nav{font-size:12px;line-height:1.85}
+ .footer-bottom nav{gap:0 18px}
+}
+@media(max-width:540px){
+ :root{--gutter:20px}
+ .hero-story{left:var(--gutter);width:calc(100% - 2 * var(--gutter));bottom:125px}
+ .hero{min-height:600px}
+ .home-page .hero h1{font-size:32px}
+ .story-grid,.home-page .editorial-grid{grid-template-columns:minmax(0,1fr);gap:28px}
+ .editorial-grid .story-card:nth-child(n),.home-page .editorial-grid .story-card:nth-child(n){grid-column:1 / -1;display:block;padding-top:0;padding-bottom:0;border:0}
+ .card-photo,.editorial-grid .story-card:nth-child(n) .card-photo,.home-page .editorial-grid .story-card:nth-child(n) .card-photo{aspect-ratio:1.45}
+ .story-card h3,.home-page .story-card h3,.editorial-grid .story-card:nth-child(n) h3,.home-page .editorial-grid .story-card:nth-child(n) h3{font-size:24px;line-height:1.55}
+ .cover-essay-mosaic,.home-page .cover-essay-mosaic{grid-template-columns:minmax(0,1fr);gap:22px}
+ .cover-essay-photo:nth-child(n){grid-column:1;margin-bottom:0}
+ .cover-essay-photo:nth-child(n)>a{aspect-ratio:1.4}
+ .mobile-menu nav{grid-template-columns:1fr;gap:0;margin:20px 0}
+ .mobile-menu nav a{font-size:22px;padding:12px 0}
+ .footer-top{flex-wrap:wrap}
+ .footer-top>p{font-size:18px;line-height:1.7}
+ .hero-folio span:last-child{display:none}
+}
 @media print{.site-header,.site-footer,.share-row,.mobile-menu,.gallery-dialog,.hero-bottom,.scroll-hint{display:none!important}body{background:white;color:black}.article-heading{padding-top:0}.article-lead-photo{height:360px}.prose{max-width:none}a[href]:after{content:none}[data-reveal]{opacity:1!important;transform:none!important}.article-images{break-inside:avoid}.story-grid{display:block}.story-card{break-inside:avoid;margin-bottom:30px}}
