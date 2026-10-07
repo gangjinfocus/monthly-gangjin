@@ -18,7 +18,27 @@ switch(process.argv[2]){
   const p=await api(base+'/pages',exists?'PUT':'POST',{build_type:'workflow'});
   console.log(JSON.stringify({owner,url:p.html_url||`https://${owner}.github.io/${repo}/`,configured:true}));break;
  }
- case 'pages': {const p=await api(base+'/pages');console.log(JSON.stringify({url:p.html_url,status:p.status,build_type:p.build_type,https_enforced:p.https_enforced,cname:p.cname}));break;}
+ case 'pages': {const p=await api(base+'/pages');console.log(JSON.stringify({url:p.html_url,status:p.status,build_type:p.build_type,https_enforced:p.https_enforced,cname:p.cname,https_certificate:p.https_certificate}));break;}
+ case 'set-domain': {
+  const domain=process.argv[3];
+  if(!domain || !/^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/.test(domain))throw Error('A valid domain is required');
+  const current=await api(base+'/pages');
+  if(current.cname && current.cname!==domain)throw Error('A different custom domain is already configured');
+  const vars=await api(base+'/actions/variables');
+  for(const [name,value] of Object.entries({CUSTOM_DOMAIN:domain,SITE_URL:'https://'+domain,BASE_PATH:'/'})){
+   const existing=vars.variables.find(v=>v.name===name);
+   if(existing?.value===value)continue;
+   await api(base+'/actions/variables'+(existing?'/'+name:''),existing?'PATCH':'POST',{name,value});
+  }
+  if(current.cname!==domain)await api(base+'/pages','PUT',{cname:domain});
+  console.log(JSON.stringify({domain,buildVariablesConfigured:true,customDomainConfigured:true}));break;
+ }
+ case 'enforce-https': {
+  const p=await api(base+'/pages');
+  if(!p.cname)throw Error('Configure the custom domain first');
+  if(!p.https_enforced)await api(base+'/pages','PUT',{https_enforced:true});
+  console.log(JSON.stringify({domain:p.cname,https_enforced:true}));break;
+ }
  case 'runs': {const p=await api(base+'/actions/runs?per_page=3');console.log(JSON.stringify(p.workflow_runs.map(r=>({id:r.id,status:r.status,conclusion:r.conclusion,url:r.html_url,sha:r.head_sha}))));break;}
  default: {const p=await api(base);console.log(JSON.stringify({owner:account.login,repository:p.full_name,defaultBranch:p.default_branch,url:p.html_url}));}
 }

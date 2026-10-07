@@ -1,10 +1,10 @@
 # GitHub와 도메인 연결
 
-계정 `gangjinfocus`, 저장소 `monthly-gangjin`. 이메일 `gjfnews365@gmail.com`은 도메인이 아닙니다. 실제 도메인은 아직 지정되지 않았습니다.
+계정 `gangjinfocus`, 저장소 `monthly-gangjin`. 이메일 `gjfnews365@gmail.com`은 도메인이 아닙니다. 대표 도메인은 `gangjinmag.com`이며 Cloudflare에 등록되어 있습니다.
 
 ## GitHub Pages
 
-`main`에 푸시하면 `.github/workflows/pages.yml`이 구문·테스트·의존성 취약점·WordPress PHP 문법을 확인하고 공개 사이트를 빌드/배포합니다. Pages 소스는 GitHub Actions입니다. 예상 기본 URL은 `https://gangjinfocus.github.io/monthly-gangjin/`입니다. 워크플로 성공과 공개 페이지 응답을 함께 확인하십시오.
+`main`에 푸시하면 `.github/workflows/pages.yml`이 구문·테스트·의존성 취약점·WordPress PHP 문법을 확인하고 공개 사이트를 빌드/배포합니다. Pages 소스는 GitHub Actions입니다. 대표 URL은 `https://gangjinmag.com/`입니다. 기존 GitHub Pages 주소는 맞춤 도메인으로 이동합니다. 워크플로 성공과 공개 페이지 응답을 함께 확인하십시오.
 
 정적 미리보기에는 DB 서버가 없습니다. 실제 DB 접수를 사용하려면 HTTPS API 서버와 `PUBLIC_API_BASE` 및 서버의 허용 Origin을 설정하고 재배포해야 합니다. 문의·관리자는 실제 운영 서버 또는 WordPress에서 동작합니다.
 
@@ -14,10 +14,12 @@
 
 | 변수 | 값 |
 |---|---|
-| CUSTOM_DOMAIN | 실제 대표 도메인, 프로토콜 제외 |
-| SITE_URL | `https://실제대표도메인` |
+| CUSTOM_DOMAIN | `gangjinmag.com` |
+| SITE_URL | `https://gangjinmag.com` |
 | BASE_PATH | `/` |
 | PUBLIC_API_BASE | 운영 API 전체 주소. 없으면 비워두기 |
+
+현재 설정은 `node scripts/github-ops.mjs pages`로 확인합니다. 인증서가 발급되면 `node scripts/github-ops.mjs enforce-https`로 HTTPS를 강제합니다.
 
 재배포하면 도메인 경로에 맞는 기사·이미지·canonical·sitemap을 생성합니다. DNS만 변경하고 경로 설정을 빠뜨리지 마십시오.
 

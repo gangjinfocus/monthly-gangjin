@@ -4,7 +4,7 @@
 
 GitHub: https://github.com/gangjinfocus/monthly-gangjin
 
-GitHub Pages: https://gangjinfocus.github.io/monthly-gangjin/
+공식 주소: https://gangjinmag.com/ (GitHub Pages, Cloudflare DNS)
 
 ## 운영 단계
 
