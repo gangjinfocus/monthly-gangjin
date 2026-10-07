@@ -253,4 +253,50 @@
  .cover-essay-intro blockquote{padding-left:18px}
  .article-lead-photo figcaption{background:#181818cc}
 }
+/* Readable editorial hierarchy, from navigation to captions. */
+.desktop-nav{gap:clamp(14px,1.25vw,24px)}
+.desktop-nav a{font-size:16px;line-height:1.6}
+.header-subscribe{font-size:15px}
+.wordmark-en{font-size:10px}
+.article-heading h1{font-size:clamp(38px,4.3vw,60px)}
+.article-topline{font-size:16px;letter-spacing:.04em;gap:24px}
+.article-topline>a{color:var(--ink);font-weight:500}
+.article-subtitle{font-size:18px;line-height:1.85}
+.article-byline{font-size:14px;line-height:1.8}
+.home-page .hero-kicker,.home-page .eyebrow{font-size:15px;letter-spacing:.04em}
+.hero-kicker span{opacity:.9}
+.home-page .hero-link,.home-page .text-link,.home-page .section-heading .text-link{font-size:15px}
+.home-page .card-meta{font-size:15px;line-height:1.7;letter-spacing:.02em}
+.home-page .byline{font-size:14px;line-height:1.8}
+.home-page .section-heading>span,.home-page .cover-essay-intro cite{font-size:14px}
+.home-page .cover-essay-photo figcaption{font-size:14px;line-height:1.8}
+.home-page .cover-essay-photo figcaption span{font-size:12px;line-height:1.7}
+.home-page .seasonal-frame figcaption p,.home-page .seasonal-section .section-heading>p{font-size:15px}
+.home-page .seasonal-frame figcaption>span,.home-page .seasonal-frame figcaption>a{font-size:12px;line-height:1.7}
+.home-page .category-list p{font-size:16px;line-height:1.75}
+.home-page .issue-volume,.home-page .subscribe-banner>span{font-size:14px}
+.home-page .button,.home-page .issue-actions .button{font-size:15px}
+.edition-line,.edition-line>span,.edition-line>p{font-size:12px;letter-spacing:.02em}
+.hero-folio,.hero-folio span:first-child,.hero-folio span:last-child{font-size:12px;letter-spacing:.04em}
+.slide-count{font-size:14px}
+.demo-strip,.demo-note{font-size:13px;line-height:1.8}
+.footer-middle nav,.footer-contact>span{font-size:14px}
+.publisher-info,.footer-bottom,.footer-bottom nav,.footer-bottom>span{font-size:12px;line-height:1.85}
+@media(max-width:1440px){.header-subscribe{display:none}}
+@media(max-width:1180px){.desktop-nav{display:none}}
+@media(max-width:700px){
+ .wordmark-en{font-size:8px}
+ .article-heading h1{font-size:clamp(30px,7.8vw,38px);line-height:1.5}
+ .article-topline{font-size:15px;gap:18px}
+ .article-subtitle{font-size:16px}
+ .article-byline{font-size:13px}
+ .home-page .hero-kicker,.home-page .eyebrow{font-size:14px}
+ .home-page .section-heading .text-link{font-size:14px}
+ .home-page .card-meta{font-size:14px}
+ .home-page .byline{font-size:13px}
+ .home-page .category-list p{font-size:15px}
+ .hero-folio{max-width:145px}
+ .hero-folio,.hero-folio span:first-child{font-size:11px}
+ .edition-line{flex-wrap:wrap;gap:8px 16px}
+}
 @media print{.site-header,.site-footer,.share-row,.mobile-menu,.gallery-dialog,.hero-bottom,.scroll-hint{display:none!important}body{background:white;color:black}.article-heading{padding-top:0}.article-lead-photo{height:360px}.prose{max-width:none}a[href]:after{content:none}[data-reveal]{opacity:1!important;transform:none!important}.article-images{break-inside:avoid}.story-grid{display:block}.story-card{break-inside:avoid;margin-bottom:30px}}
