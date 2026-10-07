@@ -135,6 +135,7 @@
  .article-body blockquote.prose{font-size:22px;line-height:1.8}
  .article-lead-photo figcaption{font-size:12px;max-width:calc(100% - 48px);background:#15241ccc;padding:5px 8px}
  .share-row,.share-row a,.share-row button,.article-tags{font-size:13px}
+ .gallery-stage img{max-height:calc(100% - 125px)}
  .gallery-stage figcaption{font-size:13px;max-height:110px;line-height:1.6}
  .gallery-hint{font-size:11px}
  .search-filters button{font-size:14px;padding:7px 14px}
@@ -145,6 +146,8 @@
  .form-links a{min-height:44px;display:inline-flex;align-items:center}
  .form-field input,.form-field select,.form-field textarea{font-size:16px;min-height:48px}
  .consent{font-size:14px;line-height:1.8;align-items:flex-start}
+ .consent a{font-size:14px}
+ .consent small{font-size:12px;line-height:1.8}
  .consent input{width:22px;height:22px;flex:0 0 22px;margin-top:2px}
  .form-notice,.form-status{font-size:14px;line-height:1.8}
  .policy-content p,.policy-notice p,.policy-contact,.credits-note{font-size:15px;line-height:1.9}
