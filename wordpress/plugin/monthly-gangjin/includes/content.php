@@ -165,6 +165,13 @@ function mg_import_content($data) {
         try { $date = new DateTimeImmutable($date_string, wp_timezone()); } catch (Exception $e) { return new WP_Error('mg_date', '발행 일시를 처리할 수 없습니다.'); }
         $gmt = $date->setTimezone(new DateTimeZone('UTC'));
         $status = $article['status'] === 'draft' ? 'draft' : ($scheduled && $gmt->getTimestamp() > time() ? 'future' : 'publish');
+        if ($article['status'] === 'published' && $gmt->getTimestamp() > time()) {
+            // A future nominal issue date is not a schedule. Keep it separately and preserve
+            // the declared published state with a truthful native publication timestamp.
+            $article['editorialDate'] = $article['date'];
+            $date = new DateTimeImmutable('now', wp_timezone());
+            $gmt = $date->setTimezone(new DateTimeZone('UTC'));
+        }
         $id = wp_insert_post(array('ID' => mg_find_source_post('post', $article['id']), 'post_type' => 'post', 'post_title' => sanitize_text_field($article['title']), 'post_name' => $article['slug'], 'post_content' => mg_blocks_to_content($article['blocks']), 'post_excerpt' => sanitize_textarea_field($article['subtitle'] ?? ''), 'post_status' => $status, 'post_date' => $date->setTimezone(wp_timezone())->format('Y-m-d H:i:s'), 'post_date_gmt' => $gmt->format('Y-m-d H:i:s'), 'post_category' => isset($category_ids[$article['category']]) ? array($category_ids[$article['category']]) : array()), true);
         if (is_wp_error($id)) return $id;
         wp_set_post_tags($id, array_map('sanitize_text_field', $article['tags'] ?? array()), false);

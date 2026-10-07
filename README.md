@@ -18,6 +18,7 @@ Node.js 24.11 이상을 설치한 환경에서:
 
 ```sh
 npm ci
+cp .env.example .env
 npm run check
 npm test
 npm run build

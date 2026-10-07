@@ -1,6 +1,7 @@
 import { createServer } from 'node:http';
 import { readFile, stat, mkdir, writeFile, rm } from 'node:fs/promises';
 import { resolve, extname, sep } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { randomBytes, randomUUID, timingSafeEqual } from 'node:crypto';
 import sharp from 'sharp';
 import { openStore, publicContent, hash, verifyPassword } from './store.mjs';
@@ -219,7 +220,7 @@ export function createApp(options = {}) {
       const normalizedPath = path.endsWith('/') ? path : `${path}/`;
       const exists = known.includes(normalizedPath) || content.articles.some(a => normalizedPath === `/stories/${a.slug}/`) || content.categories.some(c => normalizedPath === `/category/${c.slug}/`) || content.issues.some(i => normalizedPath === `/issues/${i.id}/`);
       if (!exists) throw new HttpError(404, '페이지를 찾을 수 없습니다.');
-      const renderer = options.renderPage || (await import(resolve(root, 'scripts/render.mjs'))).renderPage;
+      const renderer = options.renderPage || (await import(pathToFileURL(resolve(root, 'scripts/render.mjs')).href)).renderPage;
       const html = await renderer(normalizedPath, content, { basePath: `${basePath}/`, siteUrl: origin + basePath, apiBase: options.publicApiBase || process.env.PUBLIC_API_BASE || `${basePath}/api`, mode: 'live' });
       if (!html) throw new HttpError(404, '페이지를 찾을 수 없습니다.');
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' }); res.end(html);

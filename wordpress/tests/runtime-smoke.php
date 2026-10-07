@@ -27,10 +27,18 @@ if (!function_exists('mg_import_content')) require WP_PLUGIN_DIR . '/monthly-gan
 if (!function_exists('mg_theme_settings')) require get_stylesheet_directory() . '/functions.php';
 $assertions = 0;
 function mg_test_assert($condition, $label) { global $assertions; if (!$condition) { fwrite(STDERR, "FAIL: $label\n"); exit(1); } $assertions++; }
+mg_test_assert(defined('DB_ENGINE') && DB_ENGINE === 'sqlite' && defined('FQDB') && str_starts_with(str_replace('\\','/', FQDB), str_replace('\\','/', $root) . '/'), 'isolated SQLite database');
+mg_install_inquiries();
+update_option('mg_notifications', array('enabled'=>false,'email'=>''),false);
+$wpdb->query("DELETE FROM {$wpdb->prefix}mg_inquiries");
+$wpdb->query("DELETE FROM {$wpdb->prefix}mg_rate_limits");
 $content = json_decode(file_get_contents($argv[2]), true);
 $result = mg_import_content($content);
 if (is_wp_error($result)) { fwrite(STDERR, "Import failed: " . $result->get_error_message() . "\n"); exit(1); }
 mg_test_assert(is_array($result), 'content import');
+foreach ($content['articles'] as $article) {
+    if ($article['status'] === 'published') mg_test_assert(get_post_status(mg_find_source_post('post',$article['id'])) === 'publish', 'published source visible despite future nominal issue date');
+}
 $before = (int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_type='post'");
 $before_images = (int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_type='attachment'");
 $result = mg_import_content($content);
@@ -82,6 +90,29 @@ $request->set_header('Origin','');
 for ($i=0;$i<10;$i++) rest_do_request($request);
 mg_test_assert(rest_do_request($request)->get_status() === 429, 'rate limit enforced');
 mg_test_assert((int) $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->prefix}mg_inquiries") >= 4, 'private persistence');
+$notification_id = (int) $wpdb->get_var("SELECT MIN(id) FROM {$wpdb->prefix}mg_inquiries");
+mg_test_assert($wpdb->get_var($wpdb->prepare("SELECT notification_status FROM {$wpdb->prefix}mg_inquiries WHERE id=%d",$notification_id)) === 'disabled', 'notifications disabled by default');
+update_option('mg_notifications',array('enabled'=>true,'email'=>'notifications@example.invalid'),false);
+$mail_has_pii = false;
+$capture_mail = function ($accepted,$args) use (&$mail_has_pii) { $mail_has_pii = str_contains($args['message'],'fixture@example.invalid') || str_contains($args['message'],'TEST ONLY'); return true; };
+add_filter('pre_wp_mail',$capture_mail,99,2);
+mg_notify_inquiry($notification_id,'test-reference','institution');
+mg_test_assert(!$mail_has_pii, 'notification contains no applicant PII');
+mg_test_assert($wpdb->get_var($wpdb->prepare("SELECT notification_status FROM {$wpdb->prefix}mg_inquiries WHERE id=%d",$notification_id)) === 'accepted', 'notification transport acceptance tracked');
+remove_filter('pre_wp_mail',$capture_mail,99);
+add_filter('pre_wp_mail','__return_false',99);
+mg_notify_inquiry($notification_id,'test-reference','institution');
+mg_test_assert($wpdb->get_var($wpdb->prepare("SELECT notification_status FROM {$wpdb->prefix}mg_inquiries WHERE id=%d",$notification_id)) === 'failed', 'notification transport rejection tracked');
+remove_filter('pre_wp_mail','__return_false',99);
+update_option('mg_notifications',array('enabled'=>false,'email'=>''),false);
+mg_test_assert(isset(mg_inquiry_statuses()['quoted'],mg_inquiry_statuses()['contracting'],mg_inquiry_statuses()['active']), 'institution lifecycle statuses');
+$retention_ids = $wpdb->get_col("SELECT id FROM {$wpdb->prefix}mg_inquiries ORDER BY id ASC LIMIT 4");
+$old = gmdate('Y-m-d H:i:s',time()-YEAR_IN_SECONDS-86400);
+foreach (array(1=>'active',2=>'closed',3=>'new') as $index=>$status) $wpdb->update($wpdb->prefix.'mg_inquiries',array('status'=>$status,'updated_at'=>$old),array('id'=>(int)$retention_ids[$index]));
+do_action('mg_delete_completed_inquiries');
+mg_test_assert((int)$wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM {$wpdb->prefix}mg_inquiries WHERE id=%d",$retention_ids[1])) === 1, 'active subscription retained after one year');
+mg_test_assert((int)$wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM {$wpdb->prefix}mg_inquiries WHERE id=%d",$retention_ids[2])) === 0, 'expired closed inquiry deleted');
+mg_test_assert((int)$wpdb->get_var($wpdb->prepare("SELECT COUNT(*) FROM {$wpdb->prefix}mg_inquiries WHERE id=%d",$retention_ids[3])) === 1, 'unresolved inquiry retained');
 mg_test_assert(wp_verify_nonce(wp_create_nonce('mg_settings'),'mg_settings') === 1 && !wp_verify_nonce('invalid','mg_settings'), 'native admin nonce validation');
 wp_set_current_user(0);
 mg_test_assert(is_wp_error(mg_import_content($content)), 'unauthorized import rejected');
@@ -89,7 +120,10 @@ wp_set_current_user(get_user_by('login','test-editor')->ID);
 $token = WP_Session_Tokens::get_instance(get_current_user_id())->create(time()+3600);
 $_COOKIE[LOGGED_IN_COOKIE] = wp_generate_auth_cookie(get_current_user_id(), time()+3600, 'logged_in', $token);
 $inquiry_id = (int) $wpdb->get_var("SELECT MIN(id) FROM {$wpdb->prefix}mg_inquiries");
-$auth = array('cookie' => LOGGED_IN_COOKIE . '=' . $_COOKIE[LOGGED_IN_COOKIE] . '; ' . AUTH_COOKIE . '=' . wp_generate_auth_cookie(get_current_user_id(),time()+3600,'auth',$token), 'statusNonce' => wp_create_nonce('mg_status_' . $inquiry_id),'inquiryId' => $inquiry_id);
+// During a fresh WP_INSTALLING bootstrap COOKIEHASH was initialized before siteurl existed.
+// Generate the post-install cookie names used by the separate HTTP WordPress process.
+$cookie_hash = md5(get_site_option('siteurl'));
+$auth = array('cookie' => 'wordpress_logged_in_' . $cookie_hash . '=' . $_COOKIE[LOGGED_IN_COOKIE] . '; wordpress_' . $cookie_hash . '=' . wp_generate_auth_cookie(get_current_user_id(),time()+3600,'auth',$token), 'statusNonce' => wp_create_nonce('mg_status_' . $inquiry_id),'inquiryId' => $inquiry_id);
 file_put_contents(dirname($root) . '/http-auth.json', wp_json_encode($auth));
 flush_rewrite_rules(false);
 file_put_contents(dirname($root) . '/smoke-result.json', wp_json_encode(array('assertions'=>$assertions,'posts'=>$before,'media'=>$before_images,'wordpress'=>$GLOBALS['wp_version'],'php'=>PHP_VERSION),JSON_PRETTY_PRINT));

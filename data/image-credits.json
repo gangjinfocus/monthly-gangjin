@@ -2,7 +2,7 @@
   {
     "id": "photo-01",
     "src": "/images/photo-01.webp",
-    "alt": "Panoramic view of Gangjin-eup",
+    "alt": "강진읍과 주변 들판을 내려다본 풍경",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Academy of Korean Studies · KOGL Type 1",
     "width": 1600,
@@ -15,7 +15,7 @@
   {
     "id": "photo-02",
     "src": "/images/photo-02.webp",
-    "alt": "Gundong-myeon-Gangjin-eup border",
+    "alt": "강진읍 표지판과 동네로 이어지는 길",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "hyolee2 · CC BY-SA 3.0",
     "width": 1600,
@@ -28,7 +28,7 @@
   {
     "id": "photo-03",
     "src": "/images/photo-03.webp",
-    "alt": "Gangjin-eup-Gundong myeon border",
+    "alt": "군동면 표지판 너머의 도로와 들판",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "hyolee2 · CC BY-SA 3.0",
     "width": 1600,
@@ -41,7 +41,7 @@
   {
     "id": "photo-04",
     "src": "/images/photo-04.webp",
-    "alt": "Yeongrang Birth place Gangjin Jeollanamdo South Korea01",
+    "alt": "영랑생가 입구와 계단",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -54,7 +54,7 @@
   {
     "id": "photo-05",
     "src": "/images/photo-05.webp",
-    "alt": "Dasanchodang (茶山草堂) - panoramio",
+    "alt": "가을빛 나무와 다산초당의 처마",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Cho's · CC BY-SA 3.0",
     "width": 1024,
@@ -67,7 +67,7 @@
   {
     "id": "photo-06",
     "src": "/images/photo-06.webp",
-    "alt": "Korean pottery-jangdoks in Gangjin Jeollanamdo(1)",
+    "alt": "햇빛 아래 늘어선 강진의 장독",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -80,7 +80,7 @@
   {
     "id": "photo-07",
     "src": "/images/photo-07.webp",
-    "alt": "Korean pottery-jangdoks in Gangjin Jeollanamdo(2)",
+    "alt": "산을 배경으로 마당을 채운 장독",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -93,7 +93,7 @@
   {
     "id": "photo-08",
     "src": "/images/photo-08.webp",
-    "alt": "Doenjang in Jangdok Gangjin South Korea",
+    "alt": "장독 안에 보관한 된장",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -106,7 +106,7 @@
   {
     "id": "photo-09",
     "src": "/images/photo-09.webp",
-    "alt": "Doenjang in Jangdok Gangjin South Korea(2)",
+    "alt": "장독 속 된장과 저장 도구",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -119,7 +119,7 @@
   {
     "id": "photo-10",
     "src": "/images/photo-10.webp",
-    "alt": "Poem monument of Kim Yeong-nang Gangjin South Korea",
+    "alt": "풀과 나무 사이에 세워진 영랑 시비",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
     "width": 1600,
@@ -132,7 +132,7 @@
   {
     "id": "photo-11",
     "src": "/images/photo-11.webp",
-    "alt": "White Paeonia ostii Gangjin Jeollanam-do South Korea(1)",
+    "alt": "푸른 잎 사이에 핀 흰 모란",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -145,7 +145,7 @@
   {
     "id": "photo-12",
     "src": "/images/photo-12.webp",
-    "alt": "White Paeonia suffruticosa Gangjin Jeollanam-do South Korea(2)",
+    "alt": "모란의 잎과 꽃봉오리",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -158,7 +158,7 @@
   {
     "id": "photo-13",
     "src": "/images/photo-13.webp",
-    "alt": "Goryeo Celadon Kiln Site, Gangjin",
+    "alt": "강진 고려청자 가마터의 발굴 흔적",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Korea Heritage Service · KOGL Type 1",
     "width": 1600,
@@ -171,7 +171,7 @@
   {
     "id": "photo-14",
     "src": "/images/photo-14.webp",
-    "alt": "강진병영면의은행나무전경",
+    "alt": "병영면의 커다란 은행나무",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Korea Heritage Service · KOGL Type 1",
     "width": 652,
@@ -184,7 +184,7 @@
   {
     "id": "photo-15",
     "src": "/images/photo-15.webp",
-    "alt": "강진 성동리 은행나무 전경 (촬영년도 2015년)",
+    "alt": "성동리 은행나무와 마을의 자리",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Korea Heritage Service · KOGL Type 1",
     "width": 1600,
@@ -197,7 +197,7 @@
   {
     "id": "photo-16",
     "src": "/images/photo-16.webp",
-    "alt": "Encykorea-강진 까막섬 상록수림",
+    "alt": "물 위에 비친 까막섬의 나무들",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
     "width": 1600,
@@ -210,7 +210,7 @@
   {
     "id": "photo-17",
     "src": "/images/photo-17.webp",
-    "alt": "KORAIL Gangjin Gun 51 (17283089831)",
+    "alt": "박물관의 전시 공간",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -223,7 +223,7 @@
   {
     "id": "photo-18",
     "src": "/images/photo-18.webp",
-    "alt": "KORAIL Gangjin Gun 33 (17095832698)",
+    "alt": "사찰 기둥과 단청의 세부",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -236,7 +236,7 @@
   {
     "id": "photo-19",
     "src": "/images/photo-19.webp",
-    "alt": "KORAIL Gangjin Gun 67 (17283084391)",
+    "alt": "사찰 마당을 걷는 사람들과 전각",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -249,7 +249,7 @@
   {
     "id": "photo-20",
     "src": "/images/photo-20.webp",
-    "alt": "KORAIL Gangjin Gun 11 (17053645068)",
+    "alt": "분홍 꽃이 핀 작은 들꽃",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -262,7 +262,7 @@
   {
     "id": "photo-21",
     "src": "/images/photo-21.webp",
-    "alt": "KORAIL Gangjin Gun 66 (16663353743)",
+    "alt": "초록 나무와 빛이 드는 숲",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -275,7 +275,7 @@
   {
     "id": "photo-22",
     "src": "/images/photo-22.webp",
-    "alt": "KORAIL Gangjin Gun 41 (16661142364)",
+    "alt": "나무로 지은 전통 건물의 툇마루",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -288,7 +288,7 @@
   {
     "id": "photo-23",
     "src": "/images/photo-23.webp",
-    "alt": "KORAIL Gangjin Gun 59 (17096046600)",
+    "alt": "강진 바다와 산, 물 위의 길",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -301,7 +301,7 @@
   {
     "id": "photo-24",
     "src": "/images/photo-24.webp",
-    "alt": "KORAIL Gangjin Gun 68 (17283084121)",
+    "alt": "박물관에 전시된 고려청자",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -314,7 +314,7 @@
   {
     "id": "photo-25",
     "src": "/images/photo-25.webp",
-    "alt": "KORAIL Gangjin Gun 35 (17095831878)",
+    "alt": "초록 나무 사이로 이어지는 흙길",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,
@@ -327,7 +327,7 @@
   {
     "id": "photo-26",
     "src": "/images/photo-26.webp",
-    "alt": "KORAIL Gangjin Gun 06 gejang",
+    "alt": "양념과 함께 차린 게장",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "KOREA.NET · CC BY-SA 2.0",
     "width": 1600,
@@ -340,7 +340,7 @@
   {
     "id": "photo-27",
     "src": "/images/photo-27.webp",
-    "alt": "Chueotang, Gangjin, Jeollanam-do",
+    "alt": "파와 들깻가루를 올린 추어탕",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Mar del Este · CC BY-SA 4.0",
     "width": 1600,
@@ -353,7 +353,7 @@
   {
     "id": "photo-28",
     "src": "/images/photo-28.webp",
-    "alt": "KORAIL Gangjin Gun 01 (17053892080)",
+    "alt": "접시에 담은 전복회",
     "caption": "강진 사진 기록 · 지면 구성 예시",
     "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
     "width": 1600,

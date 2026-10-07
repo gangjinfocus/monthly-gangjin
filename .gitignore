@@ -7,4 +7,5 @@ test-results/
 test-results-*
 wordpress/theme/monthly-gangjin/assets/
 wordpress/theme/monthly-gangjin/images/
+wordpress/theme/monthly-gangjin/fonts/
 *.zip

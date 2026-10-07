@@ -147,3 +147,9 @@ test('CLI refuses short passwords, stores only scrypt hash, and revokes sessions
   const rotated = spawnSync(process.execPath, [entry], { cwd: dir, env: { ...env, ADMIN_PASSWORD: secret + '-rotated' }, encoding: 'utf8' }); assert.equal(rotated.status, 0);
   const reopened = new DatabaseSync(resolve(dir, 'private/site.sqlite')); assert.equal(reopened.prepare('SELECT COUNT(*) AS n FROM sessions').get().n, 0); reopened.close();
 });
+test('default renderer imports portably from Windows paths and serves real home/article HTML', async t => {
+  const { call } = await fixture(t, { renderPage: undefined });
+  const home = await call('/'); assert.equal(home.res.status, 200); assert.match(home.res.headers.get('content-type'), /text\/html/);
+  assert.match(home.body, /<!doctype html>/i); assert.match(home.body, /월간 강진/); assert.match(home.body, /제목 public/); assert.doesNotMatch(home.body, /제목 draft|제목 future/);
+  const story = await call('/stories/public/'); assert.equal(story.res.status, 200); assert.match(story.body, /제목 public/); assert.match(story.body, /본문/); assert.match(story.body, /data-api-base="\/api"/);
+});

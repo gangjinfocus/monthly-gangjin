@@ -25,8 +25,15 @@ jobs:
       - run: npm test
       - name: Check WordPress PHP syntax
         run: find wordpress -name '*.php' -print0 | xargs -0 -n 1 php -l
+      - run: npm run package:wordpress
+      - uses: actions/upload-artifact@v4
+        with:
+          name: monthly-gangjin-wordpress
+          path: test-results/wordpress-packages/
       - name: Build GitHub Pages
-        run: npm run build
+        run: |
+          npm run build
+          npm run check:build
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://gangjinfocus.github.io/monthly-gangjin' }}
           BASE_PATH: ${{ vars.BASE_PATH || '/monthly-gangjin/' }}

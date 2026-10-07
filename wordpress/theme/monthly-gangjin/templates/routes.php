@@ -25,6 +25,16 @@ if (in_array($route, array('subscribe','institutions','advertise','contact'), tr
     <?php if ($photo) echo '<section class="about-photo">' . mg_theme_image(mg_theme_photo($photo[0]), '강진의 일상을 담은 대표 풍경', 'loading="lazy"') . '</section>'; ?>
     <section class="section about-manifesto"><span>OUR PHILOSOPHY</span><div><h2>지역에는 아직<br><em>읽지 않은 이야기가 많습니다.</em></h2><p>익숙한 골목을 낯설게 바라보고, 쉽게 지나치는 일상에서 가치를 발견합니다. 월간강진은 지역의 사람과 문화, 삶의 공간을 정성껏 기록합니다.</p><p>빠르게 흘러가는 소식 사이에서 잠시 멈춰 읽는 한 권. 지역을 방문하는 사람에게는 새로운 길이 되고, 이곳에 사는 사람에게는 자기 동네를 다시 만나는 시간이 되기를 바랍니다.</p><div class="values-grid"><div><b>01</b><h3>사람을 먼저</h3><p>이야기의 중심에는 언제나 사람이 있습니다.</p></div><div><b>02</b><h3>천천히, 깊게</h3><p>지역의 맥락과 시간을 함께 바라봅니다.</p></div><div><b>03</b><h3>함께 만드는 기록</h3><p>독자의 시선과 지역의 목소리를 담습니다.</p></div></div><?php echo mg_theme_button('편집부에 이야기 전하기', 'contact/', 'dark'); ?></div></section>
     <?php }
+} elseif ($route === 'credits') {
+    mg_theme_page_heading('PHOTO CREDITS', '사진 출처와 라이선스', '사진은 예시 기사의 대표 이미지입니다. 크기 조절·WebP 변환이 적용되었습니다.');
+    echo '<section class="section policy-content">';
+    foreach (get_option('mg_image_credits', array()) as $image) {
+        echo '<h2>' . esc_html($image['alt'] ?? '') . '</h2><p>' . esc_html($image['credit'] ?? '') . ' · ' . esc_html($image['license'] ?? '') . '</p><p>';
+        if (!empty($image['source'])) echo '<a href="' . esc_url($image['source']) . '" target="_blank" rel="noopener noreferrer">원본 출처 ↗</a> ';
+        if (!empty($image['licenseUrl'])) echo '<a href="' . esc_url($image['licenseUrl']) . '" target="_blank" rel="noopener noreferrer">라이선스 ↗</a>';
+        echo '</p>';
+    }
+    echo '</section>';
 } elseif ($route === 'policy') {
     $policy = get_query_var('mg_policy');
     $policies = array(

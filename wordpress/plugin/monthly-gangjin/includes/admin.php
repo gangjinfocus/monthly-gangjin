@@ -34,12 +34,14 @@ function mg_admin_page() {
         echo '<tr><th>홈 주요 사진</th><td><textarea class="large-text" rows="4" name="heroImages">' . esc_textarea(implode("\n", $hero_lines)) . '</textarea><p class="description">한 줄에 현재 사이트 미디어 URL|사진 설명. 빈 값이면 기사 대표 사진을 사용합니다.</p></td></tr>';
         foreach (array('publisher' => '발행인', 'editor' => '편집인', 'address' => '발행소 주소', 'businessNumber' => '사업자등록번호', 'registrationNumber' => '등록번호', 'issn' => 'ISSN', 'phone' => '전화') as $key => $label) echo '<tr><th>' . esc_html($label) . '</th><td><input class="regular-text" name="settings[footer][' . esc_attr($key) . ']" value="' . esc_attr($settings['footer'][$key] ?? '') . '"></td></tr>';
         foreach (array('instagram','youtube','facebook') as $key) echo '<tr><th>' . esc_html($key) . '</th><td><input class="regular-text" type="url" name="settings[social][' . esc_attr($key) . ']" value="' . esc_attr($settings['social'][$key] ?? '') . '"></td></tr>';
+        $notifications = get_option('mg_notifications', array('enabled' => false,'email' => ''));
+        echo '<tr><th>접수 알림 메일</th><td><label><input type="checkbox" name="notifyEnabled" value="1"' . checked(!empty($notifications['enabled']), true, false) . '> 활성화</label><p><label>실제 알림 수신 이메일 <input class="regular-text" type="email" name="notifyEmail" value="' . esc_attr($notifications['email']) . '"></label></p><p class="description">기본값은 꺼짐입니다. 실제 메일 전송 설정·수신을 먼저 확인하세요. 메일에는 신청자 개인정보를 포함하지 않습니다. wp_mail 처리 성공은 실제 수신 확인을 의미하지 않습니다.</p></td></tr>';
         echo '</table>'; submit_button(); echo '</form>';
     } else {
         nocache_headers();
         $page = max(1, (int) ($_GET['paged'] ?? 1));
         $table = $wpdb->prefix . 'mg_inquiries';
-        $rows = $wpdb->get_results($wpdb->prepare("SELECT id,reference,type,payload,status,created_at FROM $table ORDER BY id DESC LIMIT 30 OFFSET %d", ($page - 1) * 30));
+        $rows = $wpdb->get_results($wpdb->prepare("SELECT id,reference,type,payload,status,notification_status,notification_error,created_at FROM $table ORDER BY id DESC LIMIT 30 OFFSET %d", ($page - 1) * 30));
         $total = (int) $wpdb->get_var("SELECT COUNT(*) FROM $table");
         echo '<h2>개인정보가 포함된 비공개 접수함</h2><p>관리자만 열람할 수 있습니다. 결제 완료 또는 구독 확정을 의미하지 않습니다. 접수 내용을 공개 글·저장소·로그에 복사하지 마세요.</p><table class="widefat striped"><thead><tr><th>접수 번호 / UTC 일시</th><th>종류</th><th>내용</th><th>상태</th></tr></thead><tbody>';
         foreach ($rows as $row) {
@@ -47,8 +49,9 @@ function mg_admin_page() {
             foreach (json_decode($row->payload, true) ?: array() as $key => $value) echo '<dt><strong>' . esc_html($key) . '</strong></dt><dd style="white-space:pre-wrap">' . esc_html(is_bool($value) ? ($value ? '예' : '아니오') : (string) $value) . '</dd>';
             echo '</dl></details></td><td><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '">'; wp_nonce_field('mg_status_' . $row->id);
             echo '<input type="hidden" name="action" value="mg_status"><input type="hidden" name="id" value="' . (int) $row->id . '"><select name="status">';
-            foreach (array('new' => '신규', 'reviewing' => '확인 중', 'contacted' => '연락 완료', 'completed' => '처리 완료', 'closed' => '종료') as $status => $label) echo '<option value="' . esc_attr($status) . '"' . selected($row->status, $status, false) . '>' . esc_html($label) . '</option>';
-            echo '</select><button type="submit" class="button">저장</button></form><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '">'; wp_nonce_field('mg_delete_' . $row->id);
+            foreach (mg_inquiry_statuses() as $status => $label) echo '<option value="' . esc_attr($status) . '"' . selected($row->status, $status, false) . '>' . esc_html($label) . '</option>';
+            $notification_labels = array('disabled' => '메일 알림 꺼짐', 'accepted' => '메일 전송 처리 성공 · 실제 수신 미확인', 'failed' => '메일 전송 처리 실패 · SMTP 설정 확인');
+            echo '</select><button type="submit" class="button">저장</button></form><p>' . esc_html($notification_labels[$row->notification_status] ?? '메일 상태 미확인') . '</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '">'; wp_nonce_field('mg_delete_' . $row->id);
             echo '<input type="hidden" name="action" value="mg_delete"><input type="hidden" name="id" value="' . (int) $row->id . '"><label><input type="checkbox" name="confirm" value="1" required> 영구 삭제 확인</label><button class="button" type="submit">삭제</button></form></td></tr>';
         }
         if (!$rows) echo '<tr><td colspan="4">접수된 문의가 없습니다.</td></tr>';
@@ -64,6 +67,7 @@ function mg_admin_authorize($nonce) {
     check_admin_referer($nonce);
 }
 function mg_admin_redirect($tab) { wp_safe_redirect(admin_url('admin.php?page=mg-dashboard&saved=1&tab=' . $tab)); exit; }
+function mg_inquiry_statuses() { return array('new' => '접수', 'reviewing' => '확인 중', 'contacted' => '연락완료', 'quoted' => '견적발송', 'contracting' => '계약진행', 'active' => '구독중', 'completed' => '처리 완료', 'closed' => '종료'); }
 
 add_action('admin_post_mg_settings', function () {
     mg_admin_authorize('mg_settings');
@@ -72,6 +76,10 @@ add_action('admin_post_mg_settings', function () {
     $input['heroImages'] = array();
     foreach (preg_split('/\r?\n/', wp_unslash($_POST['heroImages'] ?? '')) as $line) { if (!trim($line)) continue; $parts = explode('|', $line, 2); $input['heroImages'][] = array('src' => trim($parts[0]), 'alt' => trim($parts[1] ?? '')); }
     update_option('mg_settings', mg_clean_settings($input), false);
+    $notify_email = sanitize_email(wp_unslash($_POST['notifyEmail'] ?? ''));
+    $notify_enabled = ($_POST['notifyEnabled'] ?? '') === '1';
+    if ($notify_enabled && !is_email($notify_email)) wp_die('알림 수신 이메일을 확인해 주세요.');
+    update_option('mg_notifications', array('enabled' => $notify_enabled, 'email' => $notify_email), false);
     mg_admin_redirect('settings');
 });
 add_action('admin_post_mg_import', function () {
@@ -96,7 +104,7 @@ add_action('admin_post_mg_export', function () {
 add_action('admin_post_mg_status', function () {
     $id = absint($_POST['id'] ?? 0); mg_admin_authorize('mg_status_' . $id);
     $status = sanitize_key($_POST['status'] ?? '');
-    if (!in_array($status, array('new','reviewing','contacted','completed','closed'), true)) wp_die('상태가 올바르지 않습니다.');
+    if (!array_key_exists($status, mg_inquiry_statuses())) wp_die('상태가 올바르지 않습니다.');
     global $wpdb;
     if ($wpdb->update($wpdb->prefix . 'mg_inquiries', array('status' => $status, 'updated_at' => current_time('mysql', true)), array('id' => $id)) === false) wp_die('저장하지 못했습니다.');
     mg_admin_redirect('inquiries');
@@ -111,6 +119,9 @@ add_action('admin_post_mg_delete', function () {
 
 add_action('add_meta_boxes', function () {
     add_meta_box('mg-editorial', '월간강진 편집 정보', 'mg_editorial_box', array('post','mg_issue'), 'normal', 'default');
+});
+add_action('save_post_post', function ($id) {
+    if (!wp_is_post_revision($id) && !get_post_meta($id, '_mg_source_id', true)) update_post_meta($id, '_mg_source_id', 'wp-' . $id);
 });
 function mg_editorial_box($post) {
     wp_nonce_field('mg_editorial', 'mg_editorial_nonce');

@@ -21,7 +21,7 @@ function mg_register_content_types() {
         'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'custom-fields'),
     ));
     add_rewrite_rule('^archive/?$', 'index.php?mg_route=archive', 'top');
-    foreach (array('subscribe','institutions','advertise','about','search','contact') as $route) {
+    foreach (array('subscribe','institutions','advertise','about','search','contact','credits') as $route) {
         add_rewrite_rule('^' . $route . '/?$', 'index.php?mg_route=' . $route, 'top');
     }
     add_rewrite_rule('^policies/(privacy|terms|email|subscription|refund)/?$', 'index.php?mg_route=policy&mg_policy=$matches[1]', 'top');

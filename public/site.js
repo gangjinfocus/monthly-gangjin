@@ -45,14 +45,33 @@
 
   const carousel = $('[data-carousel]');
   if (carousel) {
+    let heroVisible = true, parallaxFrame = null;
+    const updateParallax = () => {
+      parallaxFrame = null;
+      if (reduced.matches) { carousel.style.setProperty('--hero-parallax','0px'); return; }
+      const bounds = carousel.getBoundingClientRect();
+      if (bounds.bottom < 0 || bounds.top > window.innerHeight) return;
+      const shift = Math.max(0,Math.min(36,-bounds.top * 0.08));
+      carousel.style.setProperty('--hero-parallax',`${shift.toFixed(2)}px`);
+    };
+    const scheduleParallax = () => { if (heroVisible && !reduced.matches && parallaxFrame === null) parallaxFrame = window.requestAnimationFrame(updateParallax); };
+    if ('IntersectionObserver' in window) {
+      const heroObserver = new IntersectionObserver(entries => { heroVisible = entries[0].isIntersecting; if (heroVisible) scheduleParallax(); });
+      heroObserver.observe(carousel);
+    }
+    window.addEventListener('scroll',scheduleParallax,{passive:true});
+    window.addEventListener('resize',scheduleParallax,{passive:true});
+    reduced.addEventListener('change',() => { window.cancelAnimationFrame(parallaxFrame); parallaxFrame = null; updateParallax(); });
+    scheduleParallax();
     const slides = $$('[data-slide]',carousel), pause = $('[data-slide-pause]',carousel);
-    let current = 0, timer = null, manualPause = reduced.matches, hoverPause = false, focusPause = false;
+    let current = 0, timer = null, manualPause = false, hoverPause = false, focusPause = false;
     const syncTimer = () => {
       window.clearInterval(timer); timer = null;
-      if (!manualPause && !hoverPause && !focusPause && !document.hidden && slides.length > 1) timer = window.setInterval(() => show(current + 1),8500);
-      pause?.setAttribute('aria-pressed',String(manualPause));
-      pause?.setAttribute('aria-label',manualPause ? '자동 전환 재생' : '자동 전환 일시 정지');
-      if (pause) pause.textContent = manualPause ? '▶' : 'Ⅱ';
+      const paused = manualPause || reduced.matches;
+      if (!paused && !hoverPause && !focusPause && !document.hidden && slides.length > 1) timer = window.setInterval(() => show(current + 1),8500);
+      pause?.setAttribute('aria-pressed',String(paused));
+      pause?.setAttribute('aria-label',reduced.matches ? '동작 줄이기 설정으로 자동 전환 정지' : paused ? '자동 전환 재생' : '자동 전환 일시 정지');
+      if (pause) { pause.textContent = paused ? '▶' : 'Ⅱ'; pause.disabled = reduced.matches || slides.length < 2; }
     };
     const show = index => {
       if (!slides.length) return;
@@ -74,7 +93,7 @@
       if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); show(current + (event.key === 'ArrowLeft' ? -1 : 1)); syncTimer(); }
     });
     document.addEventListener('visibilitychange',syncTimer);
-    reduced.addEventListener('change',event => { manualPause = event.matches; syncTimer(); });
+    reduced.addEventListener('change',syncTimer);
     show(0); syncTimer();
     if (slides.length < 2) $$('.carousel-controls button',carousel).forEach(button => { button.disabled = true; });
   }
@@ -82,6 +101,7 @@
     $$('.card-photo').forEach(photo => {
       let frame = null;
       photo.addEventListener('pointermove',event => {
+        if (window.innerWidth <= 700 || reduced.matches) return;
         window.cancelAnimationFrame(frame);
         frame = window.requestAnimationFrame(() => {
           const box = photo.getBoundingClientRect();
@@ -169,11 +189,18 @@
     update(false);
   }
 
+  const uuid = () => {
+    if (typeof crypto.randomUUID === 'function') return crypto.randomUUID();
+    const bytes = crypto.getRandomValues(new Uint8Array(16));
+    bytes[6] = (bytes[6] & 0x0f) | 0x40; bytes[8] = (bytes[8] & 0x3f) | 0x80;
+    const hex = Array.from(bytes,n => n.toString(16).padStart(2,'0')).join('');
+    return `${hex.slice(0,8)}-${hex.slice(8,12)}-${hex.slice(12,16)}-${hex.slice(16,20)}-${hex.slice(20)}`;
+  };
   $$('[data-inquiry]').forEach(form => {
     const status = $('[data-form-status]',form), submit = $('button[type="submit"]',form), label = $('span',submit);
     const originalLabel = label?.textContent || submit.textContent;
     const startedAt = Date.now();
-    let idempotencyKey = typeof crypto.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Array.from(crypto.getRandomValues(new Uint8Array(16)),n => n.toString(16).padStart(2,'0')).join('')}`;
+    const idempotencyKey = uuid();
     let pending = false, completed = false;
     const display = (text,type = '') => { status.textContent = text; status.className = `form-status ${type}`; };
     form.addEventListener('submit',async event => {

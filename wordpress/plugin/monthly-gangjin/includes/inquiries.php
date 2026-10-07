@@ -13,6 +13,8 @@ function mg_install_inquiries() {
         type varchar(20) NOT NULL,
         payload longtext NOT NULL,
         status varchar(20) NOT NULL DEFAULT 'new',
+        notification_status varchar(20) NOT NULL DEFAULT 'disabled',
+        notification_error varchar(255) NOT NULL DEFAULT '',
         created_at datetime NOT NULL,
         updated_at datetime NOT NULL,
         PRIMARY KEY  (id),
@@ -125,7 +127,19 @@ function mg_receive_inquiry(WP_REST_Request $request) {
         if ($existing && hash_equals($existing->payload_hash, $hash)) return mg_inquiry_receipt($existing->reference, 200);
         return mg_inquiry_error($existing ? '동일 요청의 내용이 다릅니다.' : '저장하지 못했습니다. 잠시 뒤 다시 시도해 주세요.', $existing ? 409 : 503);
     }
+    mg_notify_inquiry((int) $wpdb->insert_id, $reference, $payload['type']);
     return mg_inquiry_receipt($reference, 201);
+}
+
+function mg_notify_inquiry($id, $reference, $type) {
+    global $wpdb;
+    $options = get_option('mg_notifications', array('enabled' => false, 'email' => ''));
+    if (empty($options['enabled']) || !is_email($options['email'] ?? '')) return;
+    // Notifications contain no applicant contact/address/message. Administrators open the private inbox.
+    $subject = '[월간강진] 새 접수 ' . $reference;
+    $message = "새 문의가 접수되었습니다.\n종류: " . $type . "\n참조: " . $reference . "\n비공개 접수함: " . admin_url('admin.php?page=mg-dashboard') . "\n\n이 메일은 구독/결제 확정을 의미하지 않습니다.";
+    $accepted = wp_mail($options['email'], $subject, $message);
+    $wpdb->update($wpdb->prefix . 'mg_inquiries', array('notification_status' => $accepted ? 'accepted' : 'failed', 'notification_error' => $accepted ? '' : 'mail_transport_rejected'), array('id' => $id));
 }
 
 function mg_inquiry_receipt($reference, $status) {

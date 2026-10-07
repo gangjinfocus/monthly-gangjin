@@ -10,6 +10,8 @@ const categories=[
 ].map(([slug,name,description])=>({slug,name,description}));
 let credits=[];try{credits=JSON.parse(await readFile('data/image-credits.json','utf8'))}catch{}
 const altTexts=['강진읍과 주변 들판을 내려다본 풍경','강진읍 표지판과 동네로 이어지는 길','군동면 표지판 너머의 도로와 들판','영랑생가 입구와 계단','가을빛 나무와 다산초당의 처마','햇빛 아래 늘어선 강진의 장독','산을 배경으로 마당을 채운 장독','장독 안에 보관한 된장','장독 속 된장과 저장 도구','풀과 나무 사이에 세워진 영랑 시비','푸른 잎 사이에 핀 흰 모란','모란의 잎과 꽃봉오리','강진 고려청자 가마터의 발굴 흔적','병영면의 커다란 은행나무','성동리 은행나무와 마을의 자리','물 위에 비친 까막섬의 나무들','박물관의 전시 공간','사찰 기둥과 단청의 세부','사찰 마당을 걷는 사람들과 전각','분홍 꽃이 핀 작은 들꽃','초록 나무와 빛이 드는 숲','나무로 지은 전통 건물의 툇마루','강진 바다와 산, 물 위의 길','박물관에 전시된 고려청자','초록 나무 사이로 이어지는 흙길','양념과 함께 차린 게장','파와 들깻가루를 올린 추어탕','접시에 담은 전복회'];
+credits=credits.map((entry,index)=>({...entry,alt:altTexts[index]}));
+await writeFile('data/image-credits.json',JSON.stringify(credits,null,2)+'\n');
 const photo=(n,alt)=>({...credits.find(x=>x.id==='photo-'+String(n).padStart(2,'0')),src:'/images/photo-'+String(n).padStart(2,'0')+'.webp',alt:alt||altTexts[n-1],caption:'강진 사진 기록 · 기사 구성 예시',credit:credits.find(x=>x.id==='photo-'+String(n).padStart(2,'0'))?.credit||'Wikimedia Commons · 사진 출처 목록 참고'});
 const specs=[
  ['living-in-gangjin','나는 왜 강진에 삽니까?','익숙한 풍경을 조금 낯설게 바라보는 일. 우리의 첫 번째 질문은 여기서 시작합니다.','cover',[23,25,21,22,5,16],'살아가는 곳을 기록한다는 것','어떤 곳을 안다는 것은 그곳에서 살아가는 사람들의 하루를 헤아리는 일일지도 모릅니다. 관광지도에 표시된 이름을 지나, 매일 밥을 짓고 문을 열고 같은 길을 걷는 시간을 먼저 생각합니다.','여기서 태어난 사람도, 떠났다가 돌아온 사람도, 강진을 처음 선택한 사람도 있습니다.'],

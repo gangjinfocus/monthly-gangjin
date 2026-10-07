@@ -7,11 +7,12 @@ add_action('after_setup_theme', function () {
     add_theme_support('responsive-embeds');
     add_theme_support('align-wide');
     add_theme_support('editor-styles');
-    add_editor_style(array('assets/site.css','assets/wordpress.css'));
+    add_editor_style(array('fonts/fonts.css','assets/site.css','assets/wordpress.css'));
 });
 add_action('wp_enqueue_scripts', function () {
     $version = wp_get_theme()->get('Version');
-    wp_enqueue_style('mg-site', get_stylesheet_directory_uri() . '/assets/site.css', array(), $version);
+    wp_enqueue_style('mg-fonts', get_stylesheet_directory_uri() . '/fonts/fonts.css', array(), $version);
+    wp_enqueue_style('mg-site', get_stylesheet_directory_uri() . '/assets/site.css', array('mg-fonts'), $version);
     wp_enqueue_style('mg-wordpress', get_stylesheet_directory_uri() . '/assets/wordpress.css', array('mg-site'), $version);
     wp_enqueue_script('mg-site', get_stylesheet_directory_uri() . '/assets/site.js', array(), $version, array('strategy' => 'defer', 'in_footer' => true));
 });
@@ -40,13 +41,17 @@ function mg_theme_card($post, $index = 0) {
 function mg_theme_cards($posts, $class = '') { echo '<div class="story-grid ' . esc_attr($class) . '">'; foreach ($posts as $index => $post) mg_theme_card($post, $index); echo '</div>'; }
 function mg_theme_selected_posts($ids, $fallback, $limit) {
     $selected = array();
-    foreach ($ids as $id) { $posts = get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'meta_key' => '_mg_source_id', 'meta_value' => $id, 'numberposts' => 1)); if ($posts) $selected[] = $posts[0]; }
+    foreach ($ids as $id) {
+        $posts = get_posts(array('post_type' => 'post', 'post_status' => 'publish', 'meta_key' => '_mg_source_id', 'meta_value' => $id, 'numberposts' => 1));
+        if (!$posts && preg_match('/^wp-([0-9]+)$/', $id, $match)) { $native = get_post((int) $match[1]); if ($native && $native->post_type === 'post' && $native->post_status === 'publish') $posts = array($native); }
+        if ($posts) $selected[] = $posts[0];
+    }
     return array_slice($selected ?: $fallback, 0, $limit);
 }
 
 add_filter('document_title_parts', function ($parts) {
     $route = get_query_var('mg_route');
-    $titles = array('archive' => '지난 호', 'subscribe' => '정기 구독', 'institutions' => '기관 구독', 'advertise' => '광고·협업', 'about' => '매거진 소개', 'search' => '이야기 찾기', 'contact' => '문의하기', 'policy' => '정책 안내');
+    $titles = array('archive' => '지난 호', 'subscribe' => '정기 구독', 'institutions' => '기관 구독', 'advertise' => '광고·협업', 'about' => '매거진 소개', 'search' => '이야기 찾기', 'contact' => '문의하기', 'policy' => '정책 안내', 'credits' => '사진 출처와 라이선스');
     if ($route && isset($titles[$route])) $parts['title'] = $titles[$route];
     if (is_singular('post')) { $meta = mg_theme_meta(get_post()); if (!empty($meta['seo']['title'])) $parts['title'] = $meta['seo']['title']; }
     $parts['site'] = mg_theme_settings()['name']; return $parts;
@@ -79,7 +84,7 @@ add_filter('render_block', function ($html, $block) {
         if ($processor->next_tag()) { $processor->add_class('article-images'); $processor->add_class('layout-' . $match[1]); }
         return $processor->get_updated_html();
     }
-    if ($block['blockName'] === 'core/image' && !str_contains($html, '<a ')) {
+    if ($block['blockName'] === 'core/image' && !preg_match('~<a\b[^>]*>\s*<img\b~i', $html)) {
         $processor = new WP_HTML_Tag_Processor($html);
         if ($processor->next_tag('IMG')) {
             $src = $processor->get_attribute('src'); $alt = $processor->get_attribute('alt') ?: '';
