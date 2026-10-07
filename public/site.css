@@ -25,4 +25,81 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.card-photo,.hero-image{transform:none!important}[data-reveal]{opacity:1!important;transform:none!important}}
 .search-icon{display:flex;align-items:center;justify-content:center;width:44px;height:44px}.search-icon svg{width:21px;height:21px}.menu-toggle{width:44px;height:44px;align-items:center;padding:10px}.menu-toggle span:last-child{margin-left:7px}.carousel-controls button{width:44px;height:44px}.search-filters button{min-height:44px}.share-row button,.share-row>a{min-height:44px;display:inline-flex;align-items:center}.menu-close{min-width:44px;min-height:44px}.gallery-stage>button{min-width:44px;min-height:44px}.back-top{min-width:44px;min-height:44px}@media(max-width:700px){.header-actions{gap:8px}.carousel-controls{gap:0}.carousel-controls button{width:40px;min-width:40px;height:44px}.search-icon{width:44px;height:44px}.search-icon svg{width:19px;height:19px}.menu-toggle{width:44px;height:44px}.gallery-stage{position:relative;padding:0 0 44px}.gallery-stage>button{position:absolute;bottom:0;z-index:1}.gallery-stage>button:first-child{left:calc(50% - 70px)}.gallery-stage>button:last-child{right:calc(50% - 70px)}.back-top{width:44px;height:44px;bottom:-85px}}@media(max-width:380px){.header-actions{gap:2px}.carousel-controls button{min-width:38px;width:38px}.hero-folio{max-width:95px}.slide-count{margin-right:4px}}
 @media(hover:none),(pointer:coarse),(max-width:700px){.card-photo{transform:none!important}.card-photo:hover>img:first-child,.mosaic-item:hover img,.gallery-trigger:hover img{transform:none}.card-photo:hover .alternate-photo{opacity:0;transform:none}.issue-feature-cover>a:hover{transform:none}}
+/* Homepage reading scale and compact editorial spacing. */
+.home-page .hero h1{font-size:clamp(38px,4.2vw,60px);line-height:1.4;word-break:keep-all}
+.home-page .hero-story>p{font-size:16px;line-height:1.8}
+.home-page .hero-kicker,.home-page .eyebrow{font-size:11px}
+.home-page .hero-link,.home-page .text-link{font-size:13px}
+.home-page .section{padding-top:72px;padding-bottom:72px}
+.home-page .section h2,.home-page .mosaic-intro h2,.home-page .seasonal-section h2,.home-page .issue-feature h2{font-size:clamp(30px,3vw,44px);line-height:1.5}
+.home-page .intro{gap:40px}
+.home-page .intro>p,.home-page .cover-essay-intro p,.home-page .mosaic-intro>p,.home-page .issue-feature p,.home-page .subscribe-banner p{font-size:15px;line-height:1.85}
+.home-page .section-heading{margin-bottom:28px;gap:24px}
+.home-page .cover-essay-intro{gap:40px;margin-bottom:32px}
+.home-page .cover-essay-intro blockquote{font-size:clamp(22px,2vw,28px);line-height:1.8}
+.home-page .cover-essay-intro cite{font-size:11px;margin-top:12px}
+.home-page .cover-essay-mosaic{gap:18px}
+.home-page .cover-essay-photo figcaption{font-size:11px}
+.home-page .cover-essay-photo figcaption>span{font-size:10px}
+.home-page .editorial-grid{gap:32px 24px}
+.home-page .editorial-grid .story-card:nth-child(2){grid-column:8/span 5;align-self:start;padding-bottom:0}
+.home-page .editorial-grid .story-card:nth-child(2) .card-photo{aspect-ratio:1.05}
+.home-page .story-card h3{font-size:clamp(22px,1.8vw,26px);line-height:1.55}
+.home-page .editorial-grid .story-card:nth-child(1) h3,.home-page .editorial-grid .story-card:nth-child(6) h3{font-size:clamp(24px,2vw,30px);line-height:1.5}
+.home-page .story-card>p{font-size:15px;margin-top:10px;line-height:1.8}
+.home-page .card-meta{font-size:11px;padding:14px 0 8px}
+.home-page .byline{font-size:11px;margin-top:12px}
+.home-page .editorial-grid .story-card:nth-child(6){column-gap:28px;padding-top:28px}
+.home-page .mosaic-section,.home-page .seasonal-section{padding-top:64px;padding-bottom:64px}
+.home-page .mosaic-intro{margin-bottom:32px}
+.home-page .seasonal-strip{gap:18px}
+.home-page .seasonal-section .section-heading>p{font-size:13px}
+.home-page .seasonal-frame figcaption{margin-top:12px;min-height:72px}
+.home-page .seasonal-frame figcaption p{font-size:13px}
+.home-page .seasonal-frame figcaption div>span,.home-page .seasonal-frame figcaption a{font-size:10px}
+.home-page .category-list h3{font-size:28px}
+.home-page .category-list p{font-size:14px}
+.home-page .category-list>a{padding-top:22px;padding-bottom:22px}
+.home-page .issue-feature{padding-top:64px;padding-bottom:64px;gap:6vw}
+.home-page .subscribe-banner{padding-top:72px;padding-bottom:72px}
+.home-page .subscribe-banner h2{font-size:clamp(34px,3.4vw,48px)}
+@media(min-width:701px) and (max-width:1000px){
+ .home-page .editorial-grid .story-card:nth-child(1),.home-page .editorial-grid .story-card:nth-child(2){grid-column:span 6}
+ .home-page .editorial-grid .story-card:nth-child(6){padding-top:0}
+ .home-page .intro,.home-page .cover-essay-intro{gap:28px}
+}
+@media(max-width:700px){
+ .home-page .hero h1{font-size:clamp(30px,7.5vw,40px);line-height:1.45}
+ .home-page .hero-story>p{font-size:14px;line-height:1.8}
+ .home-page .hero-kicker,.home-page .eyebrow{font-size:10px}
+ .home-page .section{padding-top:44px;padding-bottom:44px}
+ .home-page .section h2,.home-page .mosaic-intro h2,.home-page .seasonal-section h2,.home-page .issue-feature h2{font-size:30px}
+ .home-page .intro{gap:20px}
+ .home-page .intro>p,.home-page .cover-essay-intro p,.home-page .mosaic-intro>p,.home-page .issue-feature p,.home-page .subscribe-banner p{font-size:14px}
+ .home-page .section-heading{margin-bottom:24px;gap:16px}
+ .home-page .section-heading .text-link{font-size:11px;gap:12px;flex-shrink:0}
+ .home-page .cover-essay-intro{gap:22px;margin-bottom:24px}
+ .home-page .cover-essay-intro blockquote{font-size:22px}
+ .home-page .cover-essay-mosaic{gap:12px}
+ .home-page .cover-essay-photo figcaption{font-size:10px}
+ .home-page .cover-essay-photo figcaption>span{font-size:9px}
+ .home-page .editorial-grid{gap:28px 14px}
+ .home-page .editorial-grid .story-card:nth-child(2){grid-column:span 1}
+ .home-page .editorial-grid .story-card:nth-child(2) .card-photo{aspect-ratio:.9}
+ .home-page .story-card h3{font-size:20px;line-height:1.55}
+ .home-page .editorial-grid .story-card:nth-child(1) h3,.home-page .editorial-grid .story-card:nth-child(6) h3{font-size:25px}
+ .home-page .story-card>p{font-size:14px}
+ .home-page .card-meta,.home-page .byline{font-size:10px}
+ .home-page .byline{margin-top:10px}
+ .home-page .editorial-grid .story-card:nth-child(6){padding-top:22px}
+ .home-page .mosaic-section,.home-page .seasonal-section{padding-top:44px;padding-bottom:44px}
+ .home-page .mosaic-intro{margin-bottom:24px}
+ .home-page .seasonal-strip{gap:14px}
+ .home-page .category-list h3{font-size:25px}
+ .home-page .category-list p{font-size:13px}
+ .home-page .category-list>a{padding-top:18px;padding-bottom:18px}
+ .home-page .issue-feature{padding-top:48px;padding-bottom:48px;gap:32px}
+ .home-page .subscribe-banner{padding-top:48px;padding-bottom:48px}
+ .home-page .subscribe-banner h2{font-size:34px}
+}
 @media print{.site-header,.site-footer,.share-row,.mobile-menu,.gallery-dialog,.hero-bottom,.scroll-hint{display:none!important}body{background:white;color:black}.article-heading{padding-top:0}.article-lead-photo{height:360px}.prose{max-width:none}a[href]:after{content:none}[data-reveal]{opacity:1!important;transform:none!important}.article-images{break-inside:avoid}.story-grid{display:block}.story-card{break-inside:avoid;margin-bottom:30px}}
