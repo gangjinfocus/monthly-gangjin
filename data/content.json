@@ -490,7 +490,7 @@
     {
       "id": "story-1",
       "slug": "living-in-gangjin",
-      "title": "나는 왜 강진에 삽니까?",
+      "title": "나는 왜 강진에 사나?",
       "subtitle": "익숙한 풍경을 조금 낯설게 바라보는 일. 우리의 첫 번째 질문은 여기서 시작합니다.",
       "category": "cover",
       "author": "월간 강진 편집부 · 구성 예시",
@@ -592,7 +592,7 @@
       "issueId": "vol-01",
       "isDemo": true,
       "seo": {
-        "title": "나는 왜 강진에 삽니까? | 월간 강진",
+        "title": "나는 왜 강진에 사나? | 월간 강진",
         "description": "익숙한 풍경을 조금 낯설게 바라보는 일. 우리의 첫 번째 질문은 여기서 시작합니다."
       },
       "blocks": [
