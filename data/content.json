@@ -1,0 +1,2311 @@
+{
+  "version": 1,
+  "imageCredits": [
+    {
+      "id": "photo-01",
+      "src": "/images/photo-01.webp",
+      "alt": "Panoramic view of Gangjin-eup",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Academy of Korean Studies · KOGL Type 1",
+      "width": 1600,
+      "height": 1090,
+      "source": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Gangjin-eup.jpg",
+      "license": "KOGL Type 1",
+      "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+      "description": "A town located in the central-western part of Gangjin-gun, Jeollanam-do. Area: 50.91㎢."
+    },
+    {
+      "id": "photo-02",
+      "src": "/images/photo-02.webp",
+      "alt": "Gundong-myeon-Gangjin-eup border",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "hyolee2 · CC BY-SA 3.0",
+      "width": 1600,
+      "height": 1200,
+      "source": "https://commons.wikimedia.org/wiki/File:Gundong-myeon-Gangjin-eup_border.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "강진군 군동면과 강진읍의 경계"
+    },
+    {
+      "id": "photo-03",
+      "src": "/images/photo-03.webp",
+      "alt": "Gangjin-eup-Gundong myeon border",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "hyolee2 · CC BY-SA 3.0",
+      "width": 1600,
+      "height": 1200,
+      "source": "https://commons.wikimedia.org/wiki/File:Gangjin-eup-Gundong_myeon_border.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "강진군 강진읍과 군동면의 경계"
+    },
+    {
+      "id": "photo-04",
+      "src": "/images/photo-04.webp",
+      "alt": "Yeongrang Birth place Gangjin Jeollanamdo South Korea01",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Yeongrang_Birth_place_Gangjin_Jeollanamdo_South_Korea01.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "강진영랑생가 앞 시문학파기념관."
+    },
+    {
+      "id": "photo-05",
+      "src": "/images/photo-05.webp",
+      "alt": "Dasanchodang (茶山草堂) - panoramio",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Cho's · CC BY-SA 3.0",
+      "width": 1024,
+      "height": 768,
+      "source": "https://commons.wikimedia.org/wiki/File:Dasanchodang_(%E8%8C%B6%E5%B1%B1%E8%8D%89%E5%A0%82)_-_panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "description": "Dasanchodang"
+    },
+    {
+      "id": "photo-06",
+      "src": "/images/photo-06.webp",
+      "alt": "Korean pottery-jangdoks in Gangjin Jeollanamdo(1)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Korean_pottery-jangdoks_in_Gangjin_Jeollanamdo(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Korean traditional potteries (jangdok) in rows. It's the natural method of making a conservation of condiments from the ancient time."
+    },
+    {
+      "id": "photo-07",
+      "src": "/images/photo-07.webp",
+      "alt": "Korean pottery-jangdoks in Gangjin Jeollanamdo(2)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Korean_pottery-jangdoks_in_Gangjin_Jeollanamdo(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Korean traditional potteries (Jangdok) which are utilized to make a conservation of fermented sauces such as doenjang and gochujang."
+    },
+    {
+      "id": "photo-08",
+      "src": "/images/photo-08.webp",
+      "alt": "Doenjang in Jangdok Gangjin South Korea",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Doenjang_in_Jangdok_Gangjin_South_Korea.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Doenjang (Korean condiment) in jangdok in the process of fermentation."
+    },
+    {
+      "id": "photo-09",
+      "src": "/images/photo-09.webp",
+      "alt": "Doenjang in Jangdok Gangjin South Korea(2)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Doenjang_in_Jangdok_Gangjin_South_Korea(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Korean traditional condiment of doenjang in jangdok pottery. It goes through fermentation."
+    },
+    {
+      "id": "photo-10",
+      "src": "/images/photo-10.webp",
+      "alt": "Poem monument of Kim Yeong-nang Gangjin South Korea",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Poem_monument_of_Kim_Yeong-nang_Gangjin_South_Korea.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "김영랑 시인 생가 앞의 모란이 피기까지는 시비"
+    },
+    {
+      "id": "photo-11",
+      "src": "/images/photo-11.webp",
+      "alt": "White Paeonia ostii Gangjin Jeollanam-do South Korea(1)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_ostii_Gangjin_Jeollanam-do_South_Korea(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "A white paeonia in Gangjin, Jeollanam-do, South Korea"
+    },
+    {
+      "id": "photo-12",
+      "src": "/images/photo-12.webp",
+      "alt": "White Paeonia suffruticosa Gangjin Jeollanam-do South Korea(2)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_suffruticosa_Gangjin_Jeollanam-do_South_Korea(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "영랑생가 뒷편의 모란 공원."
+    },
+    {
+      "id": "photo-13",
+      "src": "/images/photo-13.webp",
+      "alt": "Goryeo Celadon Kiln Site, Gangjin",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Korea Heritage Service · KOGL Type 1",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Goryeo_Celadon_Kiln_Site,_Gangjin.jpg",
+      "license": "KOGL Type 1",
+      "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+      "description": "Idk what this pic even is of; probably ruins of where the celadon was fired"
+    },
+    {
+      "id": "photo-14",
+      "src": "/images/photo-14.webp",
+      "alt": "강진병영면의은행나무전경",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Korea Heritage Service · KOGL Type 1",
+      "width": 652,
+      "height": 800,
+      "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84%EB%B3%91%EC%98%81%EB%A9%B4%EC%9D%98%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4%EC%A0%84%EA%B2%BD.jpg",
+      "license": "KOGL Type 1",
+      "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+      "description": "Gangjin Seongdong-ri Ginkgo"
+    },
+    {
+      "id": "photo-15",
+      "src": "/images/photo-15.webp",
+      "alt": "강진 성동리 은행나무 전경 (촬영년도 2015년)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Korea Heritage Service · KOGL Type 1",
+      "width": 1600,
+      "height": 1067,
+      "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84_%EC%84%B1%EB%8F%99%EB%A6%AC_%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4_%EC%A0%84%EA%B2%BD_(%EC%B4%AC%EC%98%81%EB%85%84%EB%8F%84_2015%EB%85%84).jpg",
+      "license": "KOGL Type 1",
+      "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+      "description": "Gangjin Seongdong-ri Ginkgo"
+    },
+    {
+      "id": "photo-16",
+      "src": "/images/photo-16.webp",
+      "alt": "Encykorea-강진 까막섬 상록수림",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
+      "width": 1600,
+      "height": 1068,
+      "source": "https://commons.wikimedia.org/wiki/File:Encykorea-%EA%B0%95%EC%A7%84_%EA%B9%8C%EB%A7%89%EC%84%AC_%EC%83%81%EB%A1%9D%EC%88%98%EB%A6%BC.jpg",
+      "license": "KOGL Type 1",
+      "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+      "description": "Gangjin Kamakseom Evergreen Forest"
+    },
+    {
+      "id": "photo-17",
+      "src": "/images/photo-17.webp",
+      "alt": "KORAIL Gangjin Gun 51 (17283089831)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 2373,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_51_(17283089831).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publication by news"
+    },
+    {
+      "id": "photo-18",
+      "src": "/images/photo-18.webp",
+      "alt": "KORAIL Gangjin Gun 33 (17095832698)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 756,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_33_(17095832698).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nBaengnyeonsa Temple\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for"
+    },
+    {
+      "id": "photo-19",
+      "src": "/images/photo-19.webp",
+      "alt": "KORAIL Gangjin Gun 67 (17283084391)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 847,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_67_(17283084391).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+    },
+    {
+      "id": "photo-20",
+      "src": "/images/photo-20.webp",
+      "alt": "KORAIL Gangjin Gun 11 (17053645068)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 853,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_11_(17053645068).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publication by news"
+    },
+    {
+      "id": "photo-21",
+      "src": "/images/photo-21.webp",
+      "alt": "KORAIL Gangjin Gun 66 (16663353743)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 926,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_66_(16663353743).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+    },
+    {
+      "id": "photo-22",
+      "src": "/images/photo-22.webp",
+      "alt": "KORAIL Gangjin Gun 41 (16661142364)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 824,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+    },
+    {
+      "id": "photo-23",
+      "src": "/images/photo-23.webp",
+      "alt": "KORAIL Gangjin Gun 59 (17096046600)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 892,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_59_(17096046600).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGauhdo Island\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publi"
+    },
+    {
+      "id": "photo-24",
+      "src": "/images/photo-24.webp",
+      "alt": "KORAIL Gangjin Gun 68 (17283084121)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 957,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_68_(17283084121).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+    },
+    {
+      "id": "photo-25",
+      "src": "/images/photo-25.webp",
+      "alt": "KORAIL Gangjin Gun 35 (17095831878)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 2400,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+    },
+    {
+      "id": "photo-26",
+      "src": "/images/photo-26.webp",
+      "alt": "KORAIL Gangjin Gun 06 gejang",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "KOREA.NET · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 863,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_06_gejang.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "한국의 요리 간장게장"
+    },
+    {
+      "id": "photo-27",
+      "src": "/images/photo-27.webp",
+      "alt": "Chueotang, Gangjin, Jeollanam-do",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Mar del Este · CC BY-SA 4.0",
+      "width": 1600,
+      "height": 900,
+      "source": "https://commons.wikimedia.org/wiki/File:Chueotang,_Gangjin,_Jeollanam-do.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Chueotang. A Korean fish dish. (Gangjin, Jeollanam-do, South Korea)"
+    },
+    {
+      "id": "photo-28",
+      "src": "/images/photo-28.webp",
+      "alt": "KORAIL Gangjin Gun 01 (17053892080)",
+      "caption": "강진 사진 기록 · 지면 구성 예시",
+      "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+      "width": 1600,
+      "height": 910,
+      "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_01_(17053892080).jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nNamdo hanjeongsik, or southern Korea's traditional dining\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\n-Related Article-\n-Korea.net-\n-English-\nLocal southern delicacies now closer to home\n&lt;a href=\"http://www.korea.net/NewsFocus/Travel/view?articleId=127219\" rel=\"nofollow\"&gt;www.korea.net/NewsFocus/Travel/view?articleId=127219&lt;/a&gt"
+    }
+  ],
+  "settings": {
+    "name": "월간 강진",
+    "englishName": "MONTHLY GANGJIN",
+    "tagline": "유명한 강진보다, 살아 있는 강진을 기록합니다.",
+    "email": "gjfnews365@gmail.com",
+    "singlePrice": 10000,
+    "annualPrice": 120000,
+    "heroArticleIds": [
+      "story-1",
+      "story-5",
+      "story-8"
+    ],
+    "featuredArticleIds": [
+      "story-2",
+      "story-4",
+      "story-6",
+      "story-7"
+    ],
+    "heroImages": [
+      {
+        "id": "photo-23",
+        "src": "/images/photo-23.webp",
+        "alt": "강진 바다와 산, 물 위의 길",
+        "caption": "강진 사진 기록 · 기사 구성 예시",
+        "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+        "width": 1600,
+        "height": 892,
+        "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_59_(17096046600).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGauhdo Island\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publi"
+      },
+      {
+        "id": "photo-25",
+        "src": "/images/photo-25.webp",
+        "alt": "초록 나무 사이로 이어지는 흙길",
+        "caption": "강진 사진 기록 · 기사 구성 예시",
+        "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+        "width": 1600,
+        "height": 2400,
+        "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+      },
+      {
+        "id": "photo-21",
+        "src": "/images/photo-21.webp",
+        "alt": "초록 나무와 빛이 드는 숲",
+        "caption": "강진 사진 기록 · 기사 구성 예시",
+        "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+        "width": 1600,
+        "height": 926,
+        "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_66_(16663353743).jpg",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+      }
+    ],
+    "sectionOrder": [
+      "cover",
+      "people",
+      "village",
+      "food",
+      "work",
+      "history",
+      "life"
+    ],
+    "footer": {
+      "publisher": "",
+      "editor": "",
+      "address": "",
+      "businessNumber": "",
+      "registrationNumber": "",
+      "issn": "",
+      "phone": ""
+    },
+    "social": {
+      "instagram": "",
+      "youtube": "",
+      "facebook": ""
+    }
+  },
+  "categories": [
+    {
+      "slug": "cover",
+      "name": "이달의 강진",
+      "description": "매월 하나의 주제를 깊게 읽는 커버스토리"
+    },
+    {
+      "slug": "people",
+      "name": "강진人",
+      "description": "강진에서 살아가는 사람을 만납니다"
+    },
+    {
+      "slug": "village",
+      "name": "우리 동네",
+      "description": "강진읍과 열 개 면, 마을의 작은 이야기"
+    },
+    {
+      "slug": "food",
+      "name": "맛있는 강진",
+      "description": "생산자와 식재료, 시장과 식탁의 이야기"
+    },
+    {
+      "slug": "work",
+      "name": "일하는 강진",
+      "description": "지역에서 일하고 먹고사는 방법"
+    },
+    {
+      "slug": "history",
+      "name": "오래된 강진",
+      "description": "문장과 청자, 오래된 시간의 흔적"
+    },
+    {
+      "slug": "life",
+      "name": "강진 생활",
+      "description": "계절마다 달라지는 일상과 문화"
+    }
+  ],
+  "articles": [
+    {
+      "id": "story-1",
+      "slug": "living-in-gangjin",
+      "title": "나는 왜 강진에 삽니까?",
+      "subtitle": "익숙한 풍경을 조금 낯설게 바라보는 일. 우리의 첫 번째 질문은 여기서 시작합니다.",
+      "category": "cover",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-23.webp",
+      "secondaryImage": "/images/photo-25.webp",
+      "images": [
+        {
+          "id": "photo-23",
+          "src": "/images/photo-23.webp",
+          "alt": "강진 바다와 산, 물 위의 길",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 892,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_59_(17096046600).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGauhdo Island\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publi"
+        },
+        {
+          "id": "photo-25",
+          "src": "/images/photo-25.webp",
+          "alt": "초록 나무 사이로 이어지는 흙길",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 2400,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+        },
+        {
+          "id": "photo-21",
+          "src": "/images/photo-21.webp",
+          "alt": "초록 나무와 빛이 드는 숲",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 926,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_66_(16663353743).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+        },
+        {
+          "id": "photo-22",
+          "src": "/images/photo-22.webp",
+          "alt": "나무로 지은 전통 건물의 툇마루",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 824,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+        },
+        {
+          "id": "photo-05",
+          "src": "/images/photo-05.webp",
+          "alt": "가을빛 나무와 다산초당의 처마",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Cho's · CC BY-SA 3.0",
+          "width": 1024,
+          "height": 768,
+          "source": "https://commons.wikimedia.org/wiki/File:Dasanchodang_(%E8%8C%B6%E5%B1%B1%E8%8D%89%E5%A0%82)_-_panoramio.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "description": "Dasanchodang"
+        },
+        {
+          "id": "photo-16",
+          "src": "/images/photo-16.webp",
+          "alt": "물 위에 비친 까막섬의 나무들",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
+          "width": 1600,
+          "height": 1068,
+          "source": "https://commons.wikimedia.org/wiki/File:Encykorea-%EA%B0%95%EC%A7%84_%EA%B9%8C%EB%A7%89%EC%84%AC_%EC%83%81%EB%A1%9D%EC%88%98%EB%A6%BC.jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Gangjin Kamakseom Evergreen Forest"
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "나는 왜 강진에 삽니까? | 월간 강진",
+        "description": "익숙한 풍경을 조금 낯설게 바라보는 일. 우리의 첫 번째 질문은 여기서 시작합니다."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "살아가는 곳을 기록한다는 것"
+        },
+        {
+          "type": "paragraph",
+          "text": "어떤 곳을 안다는 것은 그곳에서 살아가는 사람들의 하루를 헤아리는 일일지도 모릅니다. 관광지도에 표시된 이름을 지나, 매일 밥을 짓고 문을 열고 같은 길을 걷는 시간을 먼저 생각합니다."
+        },
+        {
+          "type": "mosaic",
+          "images": [
+            {
+              "id": "photo-25",
+              "src": "/images/photo-25.webp",
+              "alt": "초록 나무 사이로 이어지는 흙길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 2400,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            },
+            {
+              "id": "photo-21",
+              "src": "/images/photo-21.webp",
+              "alt": "초록 나무와 빛이 드는 숲",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 926,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_66_(16663353743).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+            },
+            {
+              "id": "photo-22",
+              "src": "/images/photo-22.webp",
+              "alt": "나무로 지은 전통 건물의 툇마루",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 824,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "여기서 태어난 사람도, 떠났다가 돌아온 사람도, 강진을 처음 선택한 사람도 있습니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-16",
+              "src": "/images/photo-16.webp",
+              "alt": "물 위에 비친 까막섬의 나무들",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
+              "width": 1600,
+              "height": 1068,
+              "source": "https://commons.wikimedia.org/wiki/File:Encykorea-%EA%B0%95%EC%A7%84_%EA%B9%8C%EB%A7%89%EC%84%AC_%EC%83%81%EB%A1%9D%EC%88%98%EB%A6%BC.jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Gangjin Kamakseom Evergreen Forest"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-23",
+              "src": "/images/photo-23.webp",
+              "alt": "강진 바다와 산, 물 위의 길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 892,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_59_(17096046600).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGauhdo Island\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publi"
+            },
+            {
+              "id": "photo-25",
+              "src": "/images/photo-25.webp",
+              "alt": "초록 나무 사이로 이어지는 흙길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 2400,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story-2",
+      "slug": "returning-home",
+      "title": "떠났다가 돌아왔습니다",
+      "subtitle": "돌아온 사람의 이야기를 기다리며, 처음부터 다시 바라보는 동네.",
+      "category": "people",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-22.webp",
+      "secondaryImage": "/images/photo-10.webp",
+      "images": [
+        {
+          "id": "photo-22",
+          "src": "/images/photo-22.webp",
+          "alt": "나무로 지은 전통 건물의 툇마루",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 824,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+        },
+        {
+          "id": "photo-10",
+          "src": "/images/photo-10.webp",
+          "alt": "풀과 나무 사이에 세워진 영랑 시비",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Poem_monument_of_Kim_Yeong-nang_Gangjin_South_Korea.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "김영랑 시인 생가 앞의 모란이 피기까지는 시비"
+        },
+        {
+          "id": "photo-11",
+          "src": "/images/photo-11.webp",
+          "alt": "푸른 잎 사이에 핀 흰 모란",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_ostii_Gangjin_Jeollanam-do_South_Korea(1).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "A white paeonia in Gangjin, Jeollanam-do, South Korea"
+        },
+        {
+          "id": "photo-12",
+          "src": "/images/photo-12.webp",
+          "alt": "모란의 잎과 꽃봉오리",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_suffruticosa_Gangjin_Jeollanam-do_South_Korea(2).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "영랑생가 뒷편의 모란 공원."
+        },
+        {
+          "id": "photo-14",
+          "src": "/images/photo-14.webp",
+          "alt": "병영면의 커다란 은행나무",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Korea Heritage Service · KOGL Type 1",
+          "width": 652,
+          "height": 800,
+          "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84%EB%B3%91%EC%98%81%EB%A9%B4%EC%9D%98%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4%EC%A0%84%EA%B2%BD.jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Gangjin Seongdong-ri Ginkgo"
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "떠났다가 돌아왔습니다 | 월간 강진",
+        "description": "돌아온 사람의 이야기를 기다리며, 처음부터 다시 바라보는 동네."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "한 사람의 목소리가 지면이 되기까지"
+        },
+        {
+          "type": "paragraph",
+          "text": "돌아온다는 말 안에는 여러 시간이 들어 있습니다. 떠나 있던 시간과 남아 있던 시간, 다시 만난 풍경을 말로 옮기는 시간. 월간 강진은 그 사이를 서둘러 결론 내리지 않으려 합니다."
+        },
+        {
+          "type": "portrait",
+          "images": [
+            {
+              "id": "photo-10",
+              "src": "/images/photo-10.webp",
+              "alt": "풀과 나무 사이에 세워진 영랑 시비",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Poem_monument_of_Kim_Yeong-nang_Gangjin_South_Korea.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "김영랑 시인 생가 앞의 모란이 피기까지는 시비"
+            },
+            {
+              "id": "photo-11",
+              "src": "/images/photo-11.webp",
+              "alt": "푸른 잎 사이에 핀 흰 모란",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_ostii_Gangjin_Jeollanam-do_South_Korea(1).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "A white paeonia in Gangjin, Jeollanam-do, South Korea"
+            },
+            {
+              "id": "photo-12",
+              "src": "/images/photo-12.webp",
+              "alt": "모란의 잎과 꽃봉오리",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_suffruticosa_Gangjin_Jeollanam-do_South_Korea(2).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "영랑생가 뒷편의 모란 공원."
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "인터뷰는 정답을 듣는 일이 아니라 한 사람의 시간을 천천히 따라가는 일입니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-14",
+              "src": "/images/photo-14.webp",
+              "alt": "병영면의 커다란 은행나무",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Korea Heritage Service · KOGL Type 1",
+              "width": 652,
+              "height": 800,
+              "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84%EB%B3%91%EC%98%81%EB%A9%B4%EC%9D%98%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4%EC%A0%84%EA%B2%BD.jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Gangjin Seongdong-ri Ginkgo"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-22",
+              "src": "/images/photo-22.webp",
+              "alt": "나무로 지은 전통 건물의 툇마루",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 824,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            },
+            {
+              "id": "photo-10",
+              "src": "/images/photo-10.webp",
+              "alt": "풀과 나무 사이에 세워진 영랑 시비",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Poem_monument_of_Kim_Yeong-nang_Gangjin_South_Korea.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "김영랑 시인 생가 앞의 모란이 피기까지는 시비"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story-3",
+      "slug": "a-day-in-gangjin",
+      "title": "강진의 하루는 이렇게 흐른다",
+      "subtitle": "마을의 아침부터 골목의 저녁까지. 하루의 작은 장면들을 이어봅니다.",
+      "category": "life",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-03.webp",
+      "secondaryImage": "/images/photo-02.webp",
+      "images": [
+        {
+          "id": "photo-03",
+          "src": "/images/photo-03.webp",
+          "alt": "군동면 표지판 너머의 도로와 들판",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "hyolee2 · CC BY-SA 3.0",
+          "width": 1600,
+          "height": 1200,
+          "source": "https://commons.wikimedia.org/wiki/File:Gangjin-eup-Gundong_myeon_border.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "description": "강진군 강진읍과 군동면의 경계"
+        },
+        {
+          "id": "photo-02",
+          "src": "/images/photo-02.webp",
+          "alt": "강진읍 표지판과 동네로 이어지는 길",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "hyolee2 · CC BY-SA 3.0",
+          "width": 1600,
+          "height": 1200,
+          "source": "https://commons.wikimedia.org/wiki/File:Gundong-myeon-Gangjin-eup_border.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "description": "강진군 군동면과 강진읍의 경계"
+        },
+        {
+          "id": "photo-14",
+          "src": "/images/photo-14.webp",
+          "alt": "병영면의 커다란 은행나무",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Korea Heritage Service · KOGL Type 1",
+          "width": 652,
+          "height": 800,
+          "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84%EB%B3%91%EC%98%81%EB%A9%B4%EC%9D%98%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4%EC%A0%84%EA%B2%BD.jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Gangjin Seongdong-ri Ginkgo"
+        },
+        {
+          "id": "photo-15",
+          "src": "/images/photo-15.webp",
+          "alt": "성동리 은행나무와 마을의 자리",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Korea Heritage Service · KOGL Type 1",
+          "width": 1600,
+          "height": 1067,
+          "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84_%EC%84%B1%EB%8F%99%EB%A6%AC_%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4_%EC%A0%84%EA%B2%BD_(%EC%B4%AC%EC%98%81%EB%85%84%EB%8F%84_2015%EB%85%84).jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Gangjin Seongdong-ri Ginkgo"
+        },
+        {
+          "id": "photo-16",
+          "src": "/images/photo-16.webp",
+          "alt": "물 위에 비친 까막섬의 나무들",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
+          "width": 1600,
+          "height": 1068,
+          "source": "https://commons.wikimedia.org/wiki/File:Encykorea-%EA%B0%95%EC%A7%84_%EA%B9%8C%EB%A7%89%EC%84%AC_%EC%83%81%EB%A1%9D%EC%88%98%EB%A6%BC.jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Gangjin Kamakseom Evergreen Forest"
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "강진의 하루는 이렇게 흐른다 | 월간 강진",
+        "description": "마을의 아침부터 골목의 저녁까지. 하루의 작은 장면들을 이어봅니다."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "하루를 이루는 작은 풍경"
+        },
+        {
+          "type": "paragraph",
+          "text": "어디에나 아침이 있고 저녁이 있지만, 하루의 리듬은 장소마다 다릅니다. 같은 길도 빛과 계절, 지나가는 사람에 따라 다른 표정을 보여줍니다. 그 변화를 사진 사이의 여백에 담고 싶습니다."
+        },
+        {
+          "type": "strip",
+          "images": [
+            {
+              "id": "photo-02",
+              "src": "/images/photo-02.webp",
+              "alt": "강진읍 표지판과 동네로 이어지는 길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "hyolee2 · CC BY-SA 3.0",
+              "width": 1600,
+              "height": 1200,
+              "source": "https://commons.wikimedia.org/wiki/File:Gundong-myeon-Gangjin-eup_border.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "description": "강진군 군동면과 강진읍의 경계"
+            },
+            {
+              "id": "photo-14",
+              "src": "/images/photo-14.webp",
+              "alt": "병영면의 커다란 은행나무",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Korea Heritage Service · KOGL Type 1",
+              "width": 652,
+              "height": 800,
+              "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84%EB%B3%91%EC%98%81%EB%A9%B4%EC%9D%98%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4%EC%A0%84%EA%B2%BD.jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Gangjin Seongdong-ri Ginkgo"
+            },
+            {
+              "id": "photo-15",
+              "src": "/images/photo-15.webp",
+              "alt": "성동리 은행나무와 마을의 자리",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Korea Heritage Service · KOGL Type 1",
+              "width": 1600,
+              "height": 1067,
+              "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84_%EC%84%B1%EB%8F%99%EB%A6%AC_%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4_%EC%A0%84%EA%B2%BD_(%EC%B4%AC%EC%98%81%EB%85%84%EB%8F%84_2015%EB%85%84).jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Gangjin Seongdong-ri Ginkgo"
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "매일 같은 길에도 매일 다른 장면이 있습니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-16",
+              "src": "/images/photo-16.webp",
+              "alt": "물 위에 비친 까막섬의 나무들",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
+              "width": 1600,
+              "height": 1068,
+              "source": "https://commons.wikimedia.org/wiki/File:Encykorea-%EA%B0%95%EC%A7%84_%EA%B9%8C%EB%A7%89%EC%84%AC_%EC%83%81%EB%A1%9D%EC%88%98%EB%A6%BC.jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Gangjin Kamakseom Evergreen Forest"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-03",
+              "src": "/images/photo-03.webp",
+              "alt": "군동면 표지판 너머의 도로와 들판",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "hyolee2 · CC BY-SA 3.0",
+              "width": 1600,
+              "height": 1200,
+              "source": "https://commons.wikimedia.org/wiki/File:Gangjin-eup-Gundong_myeon_border.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "description": "강진군 강진읍과 군동면의 경계"
+            },
+            {
+              "id": "photo-02",
+              "src": "/images/photo-02.webp",
+              "alt": "강진읍 표지판과 동네로 이어지는 길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "hyolee2 · CC BY-SA 3.0",
+              "width": 1600,
+              "height": 1200,
+              "source": "https://commons.wikimedia.org/wiki/File:Gundong-myeon-Gangjin-eup_border.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "description": "강진군 군동면과 강진읍의 경계"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story-4",
+      "slug": "opening-the-dawn",
+      "title": "새벽을 여는 사람",
+      "subtitle": "문이 열리기 전의 시간, 누군가의 손에서 시작되는 하루를 생각합니다.",
+      "category": "people",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-19.webp",
+      "secondaryImage": "/images/photo-18.webp",
+      "images": [
+        {
+          "id": "photo-19",
+          "src": "/images/photo-19.webp",
+          "alt": "사찰 마당을 걷는 사람들과 전각",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 847,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_67_(17283084391).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+        },
+        {
+          "id": "photo-18",
+          "src": "/images/photo-18.webp",
+          "alt": "사찰 기둥과 단청의 세부",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 756,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_33_(17095832698).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nBaengnyeonsa Temple\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for"
+        },
+        {
+          "id": "photo-21",
+          "src": "/images/photo-21.webp",
+          "alt": "초록 나무와 빛이 드는 숲",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 926,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_66_(16663353743).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+        },
+        {
+          "id": "photo-22",
+          "src": "/images/photo-22.webp",
+          "alt": "나무로 지은 전통 건물의 툇마루",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 824,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+        },
+        {
+          "id": "photo-25",
+          "src": "/images/photo-25.webp",
+          "alt": "초록 나무 사이로 이어지는 흙길",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 2400,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "새벽을 여는 사람 | 월간 강진",
+        "description": "문이 열리기 전의 시간, 누군가의 손에서 시작되는 하루를 생각합니다."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "우리가 아직 만나지 못한 손"
+        },
+        {
+          "type": "paragraph",
+          "text": "사람을 소개하는 지면에는 이름보다 먼저 그 사람이 보내는 시간을 담으려 합니다. 일하는 손과 도구, 잠깐 쉬는 자리, 하루를 시작하는 습관 같은 것들입니다. 실제 취재에서는 당사자의 동의를 받아 이야기를 기록합니다."
+        },
+        {
+          "type": "trio",
+          "images": [
+            {
+              "id": "photo-18",
+              "src": "/images/photo-18.webp",
+              "alt": "사찰 기둥과 단청의 세부",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 756,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_33_(17095832698).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nBaengnyeonsa Temple\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for"
+            },
+            {
+              "id": "photo-21",
+              "src": "/images/photo-21.webp",
+              "alt": "초록 나무와 빛이 드는 숲",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 926,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_66_(16663353743).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+            },
+            {
+              "id": "photo-22",
+              "src": "/images/photo-22.webp",
+              "alt": "나무로 지은 전통 건물의 툇마루",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 824,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "일상은 누군가의 보이지 않는 수고 위에서 시작됩니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-25",
+              "src": "/images/photo-25.webp",
+              "alt": "초록 나무 사이로 이어지는 흙길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 2400,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-19",
+              "src": "/images/photo-19.webp",
+              "alt": "사찰 마당을 걷는 사람들과 전각",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 847,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_67_(17283084391).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+            },
+            {
+              "id": "photo-18",
+              "src": "/images/photo-18.webp",
+              "alt": "사찰 기둥과 단청의 세부",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 756,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_33_(17095832698).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nBaengnyeonsa Temple\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story-5",
+      "slug": "walking-gangjin-eup",
+      "title": "매일 지나쳐서 몰랐던 강진읍",
+      "subtitle": "발걸음의 속도를 늦추면, 익숙한 동네가 한 장의 사진이 됩니다.",
+      "category": "village",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-01.webp",
+      "secondaryImage": "/images/photo-02.webp",
+      "images": [
+        {
+          "id": "photo-01",
+          "src": "/images/photo-01.webp",
+          "alt": "강진읍과 주변 들판을 내려다본 풍경",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Academy of Korean Studies · KOGL Type 1",
+          "width": 1600,
+          "height": 1090,
+          "source": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Gangjin-eup.jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "A town located in the central-western part of Gangjin-gun, Jeollanam-do. Area: 50.91㎢."
+        },
+        {
+          "id": "photo-02",
+          "src": "/images/photo-02.webp",
+          "alt": "강진읍 표지판과 동네로 이어지는 길",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "hyolee2 · CC BY-SA 3.0",
+          "width": 1600,
+          "height": 1200,
+          "source": "https://commons.wikimedia.org/wiki/File:Gundong-myeon-Gangjin-eup_border.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "description": "강진군 군동면과 강진읍의 경계"
+        },
+        {
+          "id": "photo-03",
+          "src": "/images/photo-03.webp",
+          "alt": "군동면 표지판 너머의 도로와 들판",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "hyolee2 · CC BY-SA 3.0",
+          "width": 1600,
+          "height": 1200,
+          "source": "https://commons.wikimedia.org/wiki/File:Gangjin-eup-Gundong_myeon_border.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "description": "강진군 강진읍과 군동면의 경계"
+        },
+        {
+          "id": "photo-15",
+          "src": "/images/photo-15.webp",
+          "alt": "성동리 은행나무와 마을의 자리",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Korea Heritage Service · KOGL Type 1",
+          "width": 1600,
+          "height": 1067,
+          "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84_%EC%84%B1%EB%8F%99%EB%A6%AC_%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4_%EC%A0%84%EA%B2%BD_(%EC%B4%AC%EC%98%81%EB%85%84%EB%8F%84_2015%EB%85%84).jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Gangjin Seongdong-ri Ginkgo"
+        },
+        {
+          "id": "photo-16",
+          "src": "/images/photo-16.webp",
+          "alt": "물 위에 비친 까막섬의 나무들",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
+          "width": 1600,
+          "height": 1068,
+          "source": "https://commons.wikimedia.org/wiki/File:Encykorea-%EA%B0%95%EC%A7%84_%EA%B9%8C%EB%A7%89%EC%84%AC_%EC%83%81%EB%A1%9D%EC%88%98%EB%A6%BC.jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Gangjin Kamakseom Evergreen Forest"
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "매일 지나쳐서 몰랐던 강진읍 | 월간 강진",
+        "description": "발걸음의 속도를 늦추면, 익숙한 동네가 한 장의 사진이 됩니다."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "지나치는 곳에서 머무는 곳으로"
+        },
+        {
+          "type": "paragraph",
+          "text": "우리는 큰 이름을 가진 장소와 작고 익숙한 장소를 같은 관심으로 바라봅니다. 길가의 나무와 낮은 담, 골목 끝에서 보이는 산. 익숙해서 사진으로 남기지 않았던 장면이 동네의 표정을 만들기도 합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-02",
+              "src": "/images/photo-02.webp",
+              "alt": "강진읍 표지판과 동네로 이어지는 길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "hyolee2 · CC BY-SA 3.0",
+              "width": 1600,
+              "height": 1200,
+              "source": "https://commons.wikimedia.org/wiki/File:Gundong-myeon-Gangjin-eup_border.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "description": "강진군 군동면과 강진읍의 경계"
+            },
+            {
+              "id": "photo-03",
+              "src": "/images/photo-03.webp",
+              "alt": "군동면 표지판 너머의 도로와 들판",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "hyolee2 · CC BY-SA 3.0",
+              "width": 1600,
+              "height": 1200,
+              "source": "https://commons.wikimedia.org/wiki/File:Gangjin-eup-Gundong_myeon_border.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "description": "강진군 강진읍과 군동면의 경계"
+            },
+            {
+              "id": "photo-15",
+              "src": "/images/photo-15.webp",
+              "alt": "성동리 은행나무와 마을의 자리",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Korea Heritage Service · KOGL Type 1",
+              "width": 1600,
+              "height": 1067,
+              "source": "https://commons.wikimedia.org/wiki/File:%EA%B0%95%EC%A7%84_%EC%84%B1%EB%8F%99%EB%A6%AC_%EC%9D%80%ED%96%89%EB%82%98%EB%AC%B4_%EC%A0%84%EA%B2%BD_(%EC%B4%AC%EC%98%81%EB%85%84%EB%8F%84_2015%EB%85%84).jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Gangjin Seongdong-ri Ginkgo"
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "동네를 읽는 가장 좋은 속도는 걸음의 속도입니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-16",
+              "src": "/images/photo-16.webp",
+              "alt": "물 위에 비친 까막섬의 나무들",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Academy of Korean Studies/Namhae Yu · KOGL Type 1",
+              "width": 1600,
+              "height": 1068,
+              "source": "https://commons.wikimedia.org/wiki/File:Encykorea-%EA%B0%95%EC%A7%84_%EA%B9%8C%EB%A7%89%EC%84%AC_%EC%83%81%EB%A1%9D%EC%88%98%EB%A6%BC.jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Gangjin Kamakseom Evergreen Forest"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-01",
+              "src": "/images/photo-01.webp",
+              "alt": "강진읍과 주변 들판을 내려다본 풍경",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Academy of Korean Studies · KOGL Type 1",
+              "width": 1600,
+              "height": 1090,
+              "source": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Gangjin-eup.jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "A town located in the central-western part of Gangjin-gun, Jeollanam-do. Area: 50.91㎢."
+            },
+            {
+              "id": "photo-02",
+              "src": "/images/photo-02.webp",
+              "alt": "강진읍 표지판과 동네로 이어지는 길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "hyolee2 · CC BY-SA 3.0",
+              "width": 1600,
+              "height": 1200,
+              "source": "https://commons.wikimedia.org/wiki/File:Gundong-myeon-Gangjin-eup_border.JPG",
+              "license": "CC BY-SA 3.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+              "description": "강진군 군동면과 강진읍의 경계"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story-6",
+      "slug": "the-gangjin-table",
+      "title": "강진 사람은 이걸 어떻게 먹을까",
+      "subtitle": "식재료가 식탁에 오기까지. 맛을 넘어 그 뒤의 시간을 읽습니다.",
+      "category": "food",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-26.webp",
+      "secondaryImage": "/images/photo-27.webp",
+      "images": [
+        {
+          "id": "photo-26",
+          "src": "/images/photo-26.webp",
+          "alt": "양념과 함께 차린 게장",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "KOREA.NET · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 863,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_06_gejang.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "한국의 요리 간장게장"
+        },
+        {
+          "id": "photo-27",
+          "src": "/images/photo-27.webp",
+          "alt": "파와 들깻가루를 올린 추어탕",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Chueotang,_Gangjin,_Jeollanam-do.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Chueotang. A Korean fish dish. (Gangjin, Jeollanam-do, South Korea)"
+        },
+        {
+          "id": "photo-28",
+          "src": "/images/photo-28.webp",
+          "alt": "접시에 담은 전복회",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 910,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_01_(17053892080).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nNamdo hanjeongsik, or southern Korea's traditional dining\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\n-Related Article-\n-Korea.net-\n-English-\nLocal southern delicacies now closer to home\n&lt;a href=\"http://www.korea.net/NewsFocus/Travel/view?articleId=127219\" rel=\"nofollow\"&gt;www.korea.net/NewsFocus/Travel/view?articleId=127219&lt;/a&gt"
+        },
+        {
+          "id": "photo-08",
+          "src": "/images/photo-08.webp",
+          "alt": "장독 안에 보관한 된장",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Doenjang_in_Jangdok_Gangjin_South_Korea.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Doenjang (Korean condiment) in jangdok in the process of fermentation."
+        },
+        {
+          "id": "photo-09",
+          "src": "/images/photo-09.webp",
+          "alt": "장독 속 된장과 저장 도구",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Doenjang_in_Jangdok_Gangjin_South_Korea(2).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Korean traditional condiment of doenjang in jangdok pottery. It goes through fermentation."
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "강진 사람은 이걸 어떻게 먹을까 | 월간 강진",
+        "description": "식재료가 식탁에 오기까지. 맛을 넘어 그 뒤의 시간을 읽습니다."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "한 끼의 뒤편"
+        },
+        {
+          "type": "paragraph",
+          "text": "음식의 이야기는 완성된 한 접시만으로 끝나지 않습니다. 재료를 고르고 기다리고 보관하는 과정, 함께 먹는 사람, 계절에 따라 달라지는 습관을 함께 담아야 식탁의 모습이 조금 더 선명해집니다."
+        },
+        {
+          "type": "split",
+          "images": [
+            {
+              "id": "photo-27",
+              "src": "/images/photo-27.webp",
+              "alt": "파와 들깻가루를 올린 추어탕",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Chueotang,_Gangjin,_Jeollanam-do.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "Chueotang. A Korean fish dish. (Gangjin, Jeollanam-do, South Korea)"
+            },
+            {
+              "id": "photo-28",
+              "src": "/images/photo-28.webp",
+              "alt": "접시에 담은 전복회",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 910,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_01_(17053892080).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nNamdo hanjeongsik, or southern Korea's traditional dining\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\n-Related Article-\n-Korea.net-\n-English-\nLocal southern delicacies now closer to home\n&lt;a href=\"http://www.korea.net/NewsFocus/Travel/view?articleId=127219\" rel=\"nofollow\"&gt;www.korea.net/NewsFocus/Travel/view?articleId=127219&lt;/a&gt"
+            },
+            {
+              "id": "photo-08",
+              "src": "/images/photo-08.webp",
+              "alt": "장독 안에 보관한 된장",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Doenjang_in_Jangdok_Gangjin_South_Korea.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "Doenjang (Korean condiment) in jangdok in the process of fermentation."
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "한 끼에는 재료가 자란 계절과 그것을 준비한 시간이 함께 놓입니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-09",
+              "src": "/images/photo-09.webp",
+              "alt": "장독 속 된장과 저장 도구",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Doenjang_in_Jangdok_Gangjin_South_Korea(2).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "Korean traditional condiment of doenjang in jangdok pottery. It goes through fermentation."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-26",
+              "src": "/images/photo-26.webp",
+              "alt": "양념과 함께 차린 게장",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "KOREA.NET · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 863,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_06_gejang.jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "한국의 요리 간장게장"
+            },
+            {
+              "id": "photo-27",
+              "src": "/images/photo-27.webp",
+              "alt": "파와 들깻가루를 올린 추어탕",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Chueotang,_Gangjin,_Jeollanam-do.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "Chueotang. A Korean fish dish. (Gangjin, Jeollanam-do, South Korea)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story-7",
+      "slug": "making-a-living",
+      "title": "강진에서 먹고사는 법",
+      "subtitle": "흙과 손, 도구와 계절. 지역에서 일한다는 것에 관한 기록.",
+      "category": "work",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-06.webp",
+      "secondaryImage": "/images/photo-07.webp",
+      "images": [
+        {
+          "id": "photo-06",
+          "src": "/images/photo-06.webp",
+          "alt": "햇빛 아래 늘어선 강진의 장독",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Korean_pottery-jangdoks_in_Gangjin_Jeollanamdo(1).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Korean traditional potteries (jangdok) in rows. It's the natural method of making a conservation of condiments from the ancient time."
+        },
+        {
+          "id": "photo-07",
+          "src": "/images/photo-07.webp",
+          "alt": "산을 배경으로 마당을 채운 장독",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Korean_pottery-jangdoks_in_Gangjin_Jeollanamdo(2).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "Korean traditional potteries (Jangdok) which are utilized to make a conservation of fermented sauces such as doenjang and gochujang."
+        },
+        {
+          "id": "photo-13",
+          "src": "/images/photo-13.webp",
+          "alt": "강진 고려청자 가마터의 발굴 흔적",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Korea Heritage Service · KOGL Type 1",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Goryeo_Celadon_Kiln_Site,_Gangjin.jpg",
+          "license": "KOGL Type 1",
+          "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+          "description": "Idk what this pic even is of; probably ruins of where the celadon was fired"
+        },
+        {
+          "id": "photo-22",
+          "src": "/images/photo-22.webp",
+          "alt": "나무로 지은 전통 건물의 툇마루",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 824,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+        },
+        {
+          "id": "photo-23",
+          "src": "/images/photo-23.webp",
+          "alt": "강진 바다와 산, 물 위의 길",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 892,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_59_(17096046600).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGauhdo Island\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publi"
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "강진에서 먹고사는 법 | 월간 강진",
+        "description": "흙과 손, 도구와 계절. 지역에서 일한다는 것에 관한 기록."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "일의 풍경을 바라보는 일"
+        },
+        {
+          "type": "paragraph",
+          "text": "지역의 일은 한 가지 모습으로 설명하기 어렵습니다. 오랫동안 이어온 기술과 새롭게 시작한 일, 계절을 따라 움직이는 일과 매일 같은 자리에서 이어지는 일을 서로 다른 목소리로 기록하려 합니다."
+        },
+        {
+          "type": "overlap",
+          "images": [
+            {
+              "id": "photo-07",
+              "src": "/images/photo-07.webp",
+              "alt": "산을 배경으로 마당을 채운 장독",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Korean_pottery-jangdoks_in_Gangjin_Jeollanamdo(2).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "Korean traditional potteries (Jangdok) which are utilized to make a conservation of fermented sauces such as doenjang and gochujang."
+            },
+            {
+              "id": "photo-13",
+              "src": "/images/photo-13.webp",
+              "alt": "강진 고려청자 가마터의 발굴 흔적",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Korea Heritage Service · KOGL Type 1",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Goryeo_Celadon_Kiln_Site,_Gangjin.jpg",
+              "license": "KOGL Type 1",
+              "licenseUrl": "http://www.kogl.or.kr/info/licenseType1.do",
+              "description": "Idk what this pic even is of; probably ruins of where the celadon was fired"
+            },
+            {
+              "id": "photo-22",
+              "src": "/images/photo-22.webp",
+              "alt": "나무로 지은 전통 건물의 툇마루",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 824,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_41_(16661142364).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "작은 도구 하나에도 오래 반복한 손의 기억이 남습니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-23",
+              "src": "/images/photo-23.webp",
+              "alt": "강진 바다와 산, 물 위의 길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 892,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_59_(17096046600).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGauhdo Island\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publi"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-06",
+              "src": "/images/photo-06.webp",
+              "alt": "햇빛 아래 늘어선 강진의 장독",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Korean_pottery-jangdoks_in_Gangjin_Jeollanamdo(1).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "Korean traditional potteries (jangdok) in rows. It's the natural method of making a conservation of condiments from the ancient time."
+            },
+            {
+              "id": "photo-07",
+              "src": "/images/photo-07.webp",
+              "alt": "산을 배경으로 마당을 채운 장독",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Korean_pottery-jangdoks_in_Gangjin_Jeollanamdo(2).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "Korean traditional potteries (Jangdok) which are utilized to make a conservation of fermented sauces such as doenjang and gochujang."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story-8",
+      "slug": "walking-with-yeongrang",
+      "title": "영랑의 문장을 따라 걷다",
+      "subtitle": "집과 정원, 나무와 여백. 오래된 문장을 만나는 느린 산책.",
+      "category": "history",
+      "author": "월간 강진 편집부 · 구성 예시",
+      "photographer": "출처별 표기 · Wikimedia Commons",
+      "date": "2027-01-01",
+      "status": "published",
+      "publishAt": null,
+      "primaryImage": "/images/photo-04.webp",
+      "secondaryImage": "/images/photo-10.webp",
+      "images": [
+        {
+          "id": "photo-04",
+          "src": "/images/photo-04.webp",
+          "alt": "영랑생가 입구와 계단",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Yeongrang_Birth_place_Gangjin_Jeollanamdo_South_Korea01.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "강진영랑생가 앞 시문학파기념관."
+        },
+        {
+          "id": "photo-10",
+          "src": "/images/photo-10.webp",
+          "alt": "풀과 나무 사이에 세워진 영랑 시비",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:Poem_monument_of_Kim_Yeong-nang_Gangjin_South_Korea.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "김영랑 시인 생가 앞의 모란이 피기까지는 시비"
+        },
+        {
+          "id": "photo-11",
+          "src": "/images/photo-11.webp",
+          "alt": "푸른 잎 사이에 핀 흰 모란",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_ostii_Gangjin_Jeollanam-do_South_Korea(1).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "A white paeonia in Gangjin, Jeollanam-do, South Korea"
+        },
+        {
+          "id": "photo-12",
+          "src": "/images/photo-12.webp",
+          "alt": "모란의 잎과 꽃봉오리",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Mar del Este · CC BY-SA 4.0",
+          "width": 1600,
+          "height": 900,
+          "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_suffruticosa_Gangjin_Jeollanam-do_South_Korea(2).jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "description": "영랑생가 뒷편의 모란 공원."
+        },
+        {
+          "id": "photo-05",
+          "src": "/images/photo-05.webp",
+          "alt": "가을빛 나무와 다산초당의 처마",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Cho's · CC BY-SA 3.0",
+          "width": 1024,
+          "height": 768,
+          "source": "https://commons.wikimedia.org/wiki/File:Dasanchodang_(%E8%8C%B6%E5%B1%B1%E8%8D%89%E5%A0%82)_-_panoramio.jpg",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "description": "Dasanchodang"
+        },
+        {
+          "id": "photo-24",
+          "src": "/images/photo-24.webp",
+          "alt": "박물관에 전시된 고려청자",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 957,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_68_(17283084121).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nGangjin Celadon Museum\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only "
+        },
+        {
+          "id": "photo-25",
+          "src": "/images/photo-25.webp",
+          "alt": "초록 나무 사이로 이어지는 흙길",
+          "caption": "강진 사진 기록 · 기사 구성 예시",
+          "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+          "width": 1600,
+          "height": 2400,
+          "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+        }
+      ],
+      "tags": [
+        "창간호",
+        "강진",
+        "로컬 매거진"
+      ],
+      "people": [],
+      "places": [
+        "강진"
+      ],
+      "issueId": "vol-01",
+      "isDemo": true,
+      "seo": {
+        "title": "영랑의 문장을 따라 걷다 | 월간 강진",
+        "description": "집과 정원, 나무와 여백. 오래된 문장을 만나는 느린 산책."
+      },
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "이 글은 월간 강진 창간호의 편집 구성과 읽기 경험을 보여주기 위한 예시입니다. 실존 인물의 인터뷰나 현장 취재 기사로 작성된 내용이 아닙니다. 사진은 출처와 이용 조건이 확인된 공개 기록이며 현재의 모습을 보증하지 않습니다."
+        },
+        {
+          "type": "heading",
+          "text": "문장과 공간 사이"
+        },
+        {
+          "type": "paragraph",
+          "text": "문학과 역사를 다루는 지면에서는 기록된 사실과 오늘의 감상을 구분합니다. 장소의 설명과 작품의 인용은 공식 자료와 저작권을 확인하고, 사진은 촬영 시점과 출처를 함께 남깁니다. 이 예시에는 실제 작품의 문장을 인용하지 않았습니다."
+        },
+        {
+          "type": "mosaic",
+          "images": [
+            {
+              "id": "photo-10",
+              "src": "/images/photo-10.webp",
+              "alt": "풀과 나무 사이에 세워진 영랑 시비",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Poem_monument_of_Kim_Yeong-nang_Gangjin_South_Korea.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "김영랑 시인 생가 앞의 모란이 피기까지는 시비"
+            },
+            {
+              "id": "photo-11",
+              "src": "/images/photo-11.webp",
+              "alt": "푸른 잎 사이에 핀 흰 모란",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_ostii_Gangjin_Jeollanam-do_South_Korea(1).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "A white paeonia in Gangjin, Jeollanam-do, South Korea"
+            },
+            {
+              "id": "photo-12",
+              "src": "/images/photo-12.webp",
+              "alt": "모란의 잎과 꽃봉오리",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:White_Paeonia_suffruticosa_Gangjin_Jeollanam-do_South_Korea(2).jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "영랑생가 뒷편의 모란 공원."
+            }
+          ],
+          "text": "사진 사이의 여백에도 이야기가 있습니다."
+        },
+        {
+          "type": "paragraph",
+          "text": "월간 강진은 사람과 마을, 일과 맛을 기록하는 독립적인 지역 월간지를 지향합니다. 유명한 장소를 소개하는 데서 한 걸음 더 나아가, 그 장소를 일상으로 살아가는 사람들의 시선을 함께 담고자 합니다."
+        },
+        {
+          "type": "quote",
+          "text": "오래된 공간은 오늘의 발걸음을 만나 다시 읽힙니다."
+        },
+        {
+          "type": "full",
+          "images": [
+            {
+              "id": "photo-25",
+              "src": "/images/photo-25.webp",
+              "alt": "초록 나무 사이로 이어지는 흙길",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Republic of  Korea from Seoul, Republic of Korea · CC BY-SA 2.0",
+              "width": 1600,
+              "height": 2400,
+              "source": "https://commons.wikimedia.org/wiki/File:KORAIL_Gangjin_Gun_35_(17095831878).jpg",
+              "license": "CC BY-SA 2.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+              "description": "KORAIL Tour Jeollanam-do Province by Honam KTX \nHouse of Dasan\nApril 23, 2015\nGangjin-gun County, Jeollanam-do Province\nMinistry of Culture, Sports and Tourism\nKorean Culture and Information Service\nKorea.net (&lt;a href=\"http://www.korea.net\" rel=\"nofollow\"&gt;www.korea.net&lt;/a&gt;)\nOfficial Photographer : Jeon Han\nThis official Republic of Korea photograph is being made available only for publ"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "다음 장을 함께 만들어주세요"
+        },
+        {
+          "type": "paragraph",
+          "text": "기록하고 싶은 동네의 이야기, 만나보고 싶은 사람, 오래 남기고 싶은 장면이 있다면 편집부에 알려주세요. 실제 발행 전에는 취재 내용과 사진 사용 동의, 사실 확인을 거쳐 이 예시를 정식 기사로 교체합니다."
+        },
+        {
+          "type": "pair",
+          "images": [
+            {
+              "id": "photo-04",
+              "src": "/images/photo-04.webp",
+              "alt": "영랑생가 입구와 계단",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Yeongrang_Birth_place_Gangjin_Jeollanamdo_South_Korea01.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "강진영랑생가 앞 시문학파기념관."
+            },
+            {
+              "id": "photo-10",
+              "src": "/images/photo-10.webp",
+              "alt": "풀과 나무 사이에 세워진 영랑 시비",
+              "caption": "강진 사진 기록 · 기사 구성 예시",
+              "credit": "Mar del Este\n\n This photo was taken with Samsung Galaxy S4 · CC BY-SA 4.0",
+              "width": 1600,
+              "height": 900,
+              "source": "https://commons.wikimedia.org/wiki/File:Poem_monument_of_Kim_Yeong-nang_Gangjin_South_Korea.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+              "description": "김영랑 시인 생가 앞의 모란이 피기까지는 시비"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "vol-01",
+      "volume": "01",
+      "month": "2027-01",
+      "title": "강진에서 산다는 것",
+      "description": "사람과 마을, 일과 맛. 월간 강진 창간호 편집 예시.",
+      "cover": "/images/photo-23.webp",
+      "articleIds": [
+        "story-1",
+        "story-2",
+        "story-3",
+        "story-4",
+        "story-5",
+        "story-6",
+        "story-7",
+        "story-8"
+      ],
+      "isDemo": true
+    }
+  ]
+}

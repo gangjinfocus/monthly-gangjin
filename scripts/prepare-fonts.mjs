@@ -1,0 +1,10 @@
+import {mkdir,writeFile} from 'node:fs/promises';
+const res=await fetch('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap',{headers:{'User-Agent':'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'}});
+if(!res.ok)throw Error('Font CSS '+res.status);
+let css=await res.text();
+const urls=[...new Set([...css.matchAll(/url\((https:\/\/fonts\.gstatic\.com\/[^)]+)\)/g)].map(m=>m[1]))];
+await mkdir('public/fonts',{recursive:true});
+for(let i=0;i<urls.length;i+=6)await Promise.all(urls.slice(i,i+6).map(async(u,j)=>{const n='noto-serif-kr-'+(i+j)+'.woff2';const r=await fetch(u);if(!r.ok)throw Error('Font download '+r.status);await writeFile('public/fonts/'+n,Buffer.from(await r.arrayBuffer()));css=css.split(u).join('./'+n);}));
+await writeFile('public/fonts/fonts.css',css);
+const license=await fetch('https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifkr/OFL.txt');if(!license.ok)throw Error('Font license download');await writeFile('public/fonts/OFL.txt',await license.text());
+console.log('Prepared '+urls.length+' local Unicode-subset fonts (SIL Open Font License).');

@@ -1,0 +1,47 @@
+name: Verify and publish Monthly Gangjin
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: monthly-gangjin-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm audit --omit=dev --audit-level=high
+      - run: npm run check
+      - run: npm test
+      - name: Check WordPress PHP syntax
+        run: find wordpress -name '*.php' -print0 | xargs -0 -n 1 php -l
+      - name: Build GitHub Pages
+        run: npm run build
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://gangjinfocus.github.io/monthly-gangjin' }}
+          BASE_PATH: ${{ vars.BASE_PATH || '/monthly-gangjin/' }}
+          PUBLIC_API_BASE: ${{ vars.PUBLIC_API_BASE }}
+          CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

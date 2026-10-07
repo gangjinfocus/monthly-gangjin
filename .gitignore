@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+runtime/
+.runtime/
+test-results/
+test-results-*
+wordpress/theme/monthly-gangjin/assets/
+wordpress/theme/monthly-gangjin/images/
+*.zip
